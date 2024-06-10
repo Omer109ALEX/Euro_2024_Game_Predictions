@@ -41,21 +41,25 @@ This project is a web application that provides predictions for Euro 2024 footba
    cd euro2024-predictions
 
 2. Create and activate a virtual environment:
-python -m venv venv
-venv\Scripts\activate  # On Windows
-source venv/bin/activate  # On macOS/Linux
+   ```sh
+   python -m venv venv
+   venv\Scripts\activate  # On Windows
+   source venv/bin/activate  # On macOS/Linux
 
 3. Install the dependencies:
-pip install -r requirements.txt
+   ```sh
+   pip install -r requirements.txt
 
 4.Set the Flask environment variables:
+   ```sh
+   set FLASK_APP=app.py  # On Windows
+   export FLASK_APP=app.py  # On macOS/Linux
+  ```
 
-set FLASK_APP=app.py  # On Windows
-export FLASK_APP=app.py  # On macOS/Linux
-
-
-5. Run the application:
-flask run
+5.Run the application:
+   ```sh
+   flask run
+  ```
 
 6.  Open your web browser and navigate to http://127.0.0.1:5000 to view the application.
 
