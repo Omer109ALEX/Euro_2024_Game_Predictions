@@ -31,16 +31,20 @@
 <body>
     <div class="container">
         <a href="/" class="btn btn-primary back-button">Back to Home Page</a>
-        <h1 class="mt-5">
+        <h1 class="mt-5 d-flex align-items-center">
             <img src="{{ game.team1_flag }}" alt="{{ game.team1 }} Flag" class="team-flag">
             {{ game.team1 }} VS
             <img src="{{ game.team2_flag }}" alt="{{ game.team2 }} Flag" class="team-flag">
             {{ game.team2 }}
         </h1>
-        <p><strong>Round:</strong> {{ game.round }}</p>
-        <p><strong>Scheduled:</strong> {{ game.scheduled }}</p>
-        <p><strong>Result:</strong> {{ game.result }}</p>
-        <p><strong>Prediction:</strong> {{ game.prediction }}</p>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <p><strong>Round:</strong> {{ game.round }}</p>
+                <p><strong>Scheduled:</strong> {{ game.scheduled }}</p>
+                <p><strong>Result:</strong> {{ game.result }}</p>
+                <p><strong>Prediction:</strong> {{ game.prediction }}</p>
+            </div>
+        </div>
         <div class="explanation-section">
             <h3 class="explanation-title">Prediction Explanation</h3>
             <div class="explanation-content formatted-text" id="prediction-explanation">
@@ -56,7 +60,5 @@
         </div>
         {% endif %}
     </div>
-
-
 </body>
 </html>
