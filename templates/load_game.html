@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa;
+        }
+        .loading-container {
+            text-align: center;
+        }
+        .loading-text {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .soccer-ball {
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-container">
+        <div class="loading-text">Loading Game</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Soccer_ball.svg" class="soccer-ball" alt="Loading">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const params = new URLSearchParams(window.location.search);
+            const gameId = params.get('game_id');
+
+            if (gameId) {
+                $.ajax({
+                    url: '/get_result',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ game_id: gameId }),
+                    success: function(response) {
+                        $.ajax({
+                            url: '/get_game_prediction',
+                            method: 'POST',
+                            contentType: 'application/json',
+                            data: JSON.stringify({ game_id: gameId }),
+                            success: function(response) {
+                                window.location.href = '/game/' + gameId; // Redirect to game details page
+                            },
+                            error: function(error) {
+                                alert('Error: ' + error.responseJSON.error);
+                            }
+                        });
+                    },
+                    error: function(error) {
+                        alert('Error: ' + error.responseJSON.error);
+                    }
+                });
+            } else {
+                alert('No game ID provided.');
+            }
+        });
+    </script>
+</body>
+</html>

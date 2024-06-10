@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .team-flag {
+            width: 48px;
+            height: 36px;
+            margin-right: 10px;
+        }
+        .explanation-section {
+            margin-top: 20px;
+        }
+        .explanation-title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .explanation-content {
+            margin-left: 20px;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="btn btn-primary back-button">Back to Home Page</a>
+        <h1 class="mt-5">
+            <img src="{{ game.team1_flag }}" alt="{{ game.team1 }} Flag" class="team-flag">
+            {{ game.team1 }} VS
+            <img src="{{ game.team2_flag }}" alt="{{ game.team2 }} Flag" class="team-flag">
+            {{ game.team2 }}
+        </h1>
+        <p><strong>Round:</strong> {{ game.round }}</p>
+        <p><strong>Scheduled:</strong> {{ game.scheduled }}</p>
+        <p><strong>Result:</strong> {{ game.result }}</p>
+        <p><strong>Prediction:</strong> {{ game.prediction }}</p>
+        <div class="explanation-section">
+            <h3 class="explanation-title">Prediction Explanation</h3>
+            <div class="explanation-content formatted-text" id="prediction-explanation">
+                {{ game.prediction_explanation|safe }}
+            </div>
+        </div>
+        {% if game.result != "X-X" %}
+        <div class="explanation-section">
+            <h3 class="explanation-title">Result Explanation</h3>
+            <div class="explanation-content formatted-text" id="result-explanation">
+                {{ game.result_explanation|safe }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+
+</body>
+</html>

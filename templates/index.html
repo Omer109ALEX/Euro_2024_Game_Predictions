@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Predictions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .game-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            width: 100%;
+        }
+        .game-box:hover {
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+        .game-info {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .team-flag {
+            width: 48px;
+            height: 36px;
+            margin-right: 10px;
+        }
+        .title-flag {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-center">
+            <img src="https://flagcdn.com/48x36/eu.png" alt="Euro Flag" class="title-flag">
+            Euro 2024 Game Predictions
+        </h1>
+        <h4 class="mt-5 text-center">by Omer Alexander</h4>
+        <div class="d-flex flex-column align-items-center">
+            {% for game in predictions %}
+            <div class="game-box" data-game-id="{{ game.id }}">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5>
+                        <img src="{{ game.team1_flag }}" alt="{{ game.team1 }} Flag" class="team-flag">
+                        {{ game.team1 }}   Vs
+                        <img src="{{ game.team2_flag }}" alt="{{ game.team2 }} Flag" class="team-flag">
+                        {{ game.team2 }}
+                    </h5>
+                    <div class="game-info">
+                        <p><strong>Round:</strong> {{ game.round }} | <strong>Scheduled:</strong> {{ game.scheduled }} | <strong>Result:</strong> {{ game.result }} | <strong>Prediction:</strong> {{ game.prediction }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const gameBoxes = document.querySelectorAll(".game-box");
+
+            gameBoxes.forEach(box => {
+                box.addEventListener("click", function() {
+                    const gameId = box.getAttribute("data-game-id");
+                    // Redirect to the loading page with game ID as query parameter
+                    window.location.href = "/load_game?game_id=" + gameId;
+                });
+            });
+        });
+    </script>
+</body>
+</html>
