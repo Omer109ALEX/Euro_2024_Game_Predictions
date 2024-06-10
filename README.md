@@ -10,6 +10,7 @@ This project is a web application that provides predictions for Euro 2024 footba
 - User-friendly interface with match details and predictions
 
 ## Project Structure
+   ```sh
 
 ├── app.py
 ├── create_messages.py
@@ -23,6 +24,7 @@ This project is a web application that provides predictions for Euro 2024 footba
 │ └── scripts.js
 ├── requirements.txt
 └── Procfile
+```
 
 - `app.py`: Main application file that contains the Flask routes and logic.
 - `create_messages.py`: Contains functions to create messages for LLM.
