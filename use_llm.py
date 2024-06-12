@@ -17,6 +17,7 @@ def chat_completion(
         model=DEFAULT_MODEL,
         temperature: float = 0.6,
         top_p: float = 0.9,
+        max_tokens=2048,
 ) -> str:
     response = client.chat.completions.create(
         messages=messages,
