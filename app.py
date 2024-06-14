@@ -1,9 +1,11 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, make_response
 import json
 import use_llm as llm
 import create_messages as cm
 
 app = Flask(__name__)
+
+PASSWORD = "omer"
 
 # Function to load predictions from a JSON file
 def load_predictions(filename="games.json"):
@@ -15,8 +17,31 @@ def save_predictions_to_file(predictions, filename="games.json"):
     with open(filename, 'w') as f:
         json.dump(predictions, f, indent=4)
 
+
 # Load predictions at startup
 predictions = load_predictions()
+
+
+@app.route('/refresh_betting_info', methods=['GET'])
+def refresh_betting_info():
+    game_id = request.args.get('game_id')
+    password = request.args.get('password')
+
+    if not password:
+        return jsonify({'message': 'password parameter is required'}), 400
+
+    if password != PASSWORD:
+        return jsonify({'message': 'Invalid password'}), 403
+
+    game = next((item for item in predictions if item["id"] == game_id), None)
+    if game:
+        messages = cm.get_betting(game)
+        result = llm.chat_completion(messages)
+        print(result)
+        game["betting_websites"] = result  # Update the betting_websites in the game dictionary
+        save_predictions_to_file(predictions)  # Save updated predictions to file
+        return make_response("", 204)  # No Content
+    return jsonify({"error": "Game not found"}), 404
 
 @app.route('/')
 def index():
