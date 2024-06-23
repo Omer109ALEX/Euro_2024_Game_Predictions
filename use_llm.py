@@ -2,11 +2,8 @@ import os
 import json
 from typing import Dict, List
 from groq import Groq
-import openai
 
 os.environ["GROQ_API_KEY"] = "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"
-
-openai.api_key = 'sk-proj-pjBisMXcQk0aXcMtOENhT3BlbkFJtgSWy8QorF0NpId6dsoF'
 
 LLAMA3_70B_INSTRUCT = "llama3-70b-8192"
 
