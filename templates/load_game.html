@@ -39,7 +39,9 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
+</body>
+</html>
+<script>
         document.addEventListener("DOMContentLoaded", function() {
             const params = new URLSearchParams(window.location.search);
             const gameId = params.get('game_id');
@@ -58,6 +60,8 @@
                             data: JSON.stringify({ game_id: gameId }),
                             success: function(response) {
                                 window.location.href = '/game/' + gameId; // Redirect to game details page
+                                //window.location.href = `/game/?game_id=${game.id}`;
+
                             },
                             error: function(error) {
                                 alert('Error: ' + error.responseJSON.error);
@@ -73,5 +77,3 @@
             }
         });
     </script>
-</body>
-</html>
