@@ -50,6 +50,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+            const NEXT_GAME_ID = "{{ next_game_id }}"; // Flask will replace this with the actual next game ID
             // Load the flags.json
             fetch('/flags.json')
                 .then(response => response.json())
@@ -86,6 +87,13 @@
                                     window.location.href = `/load_game?game_id=${game.id}`;
                                 });
                             });
+
+                            // Scroll to the next game box
+                            const nextGameBox = document.querySelector(`.game-box[data-game-id="${NEXT_GAME_ID}"]`);
+                            if (nextGameBox) {
+                                nextGameBox.scrollIntoView({ behavior: 'smooth' });
+                            }
+
                         })
                         .catch(error => console.error('Error loading games.json:', error));
                 })
