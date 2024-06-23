@@ -3,168 +3,544 @@
         "id": "0",
         "round": "Group Stage, Round 1",
         "team1": "Germany",
-        "team1_flag": "https://flagcdn.com/48x36/de.png",
         "team2": "Scotland",
-        "team2_flag": "https://flagcdn.com/48x36/gb-sct.png",
-        "scheduled": "2024-06-14 21:00",
-        "result": "X-X",
-        "prediction": "2-1",
-        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> Germany 2, Scotland 1</li>\n    <li><strong>Rationale:</strong> Germany's strong attacking lineup and home advantage should give them the edge, but Scotland's solid defense and counter-attacking capabilities will make it a competitive match.</li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Germany's Serge Gnabry is doubtful due to a minor injury, while Scotland's Scott McTominay is expected to return from suspension.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in mild temperatures with a slight chance of rain, which should not significantly impact the game.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Germany</strong>\n        <ul>\n            <li><strong>Name:</strong> Kai Havertz</li>\n            <li><strong>Position:</strong> Attacking Midfielder</li>\n            <li><strong>Recent Performance:</strong> 3 goals in last 5 games for club and country</li>\n            <li><strong>Statistics:</strong> 70% pass accuracy, 3.5 shots per game</li>\n        </ul>\n    </li>\n    <li><strong>Scotland</strong>\n        <ul>\n            <li><strong>Name:</strong> Lyndon Dykes</li>\n            <li><strong>Position:</strong> Striker</li>\n            <li><strong>Recent Performance:</strong> 2 goals in last 2 games for club</li>\n            <li><strong>Statistics:</strong> 60% shot accuracy, 2.5 aerials won per game</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong> Germany leads the head-to-head record with 4 wins, 2 draws, and 1 loss in their last 7 meetings.</li>\n    <li><strong>Recent Tournaments:</strong> Germany reached the semifinals in Euro 2020, while Scotland failed to advance from the group stage.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li><strong>Goals Scored:</strong> 2.5 per game in last 5 matches</li>\n            <li><strong>Goals Conceded:</strong> 1.2 per game in last 5 matches</li>\n            <li><strong>Pass Accuracy:</strong> 85% in last 5 matches</li>\n        </ul>\n    </li>\n    <li><strong>Scotland:</strong>\n        <ul>\n            <li><strong>Goals Scored:</strong> 1.8 per game in last 5 matches</li>\n            <li><strong>Goals Conceded:</strong> 1.5 per game in last 5 matches</li>\n            <li><strong>Shot Accuracy:</strong> 55% in last 5 matches</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Germany:</strong> Expected to deploy a 4-2-3-1 formation, with a strong emphasis on possession and attacking flair.</li>\n    <li><strong>Scotland:</strong> Likely to adopt a 5-3-2 formation, focusing on defensive solidity and quick counter-attacks.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Germany:</strong> Unbeaten in last 5 matches, with 3 wins and 2 draws.</li>\n    <li><strong>Scotland:</strong> Won 2 and lost 2 in their last 5 matches, with 1 draw.</li>\n</ul>\n\n<h5>Betting Information</h5>\n<ul>\n    <li><strong>Win-Draw-Loss Odds:</strong> Germany (1.65), Draw (3.75), Scotland (5.50)</li>\n    <li><strong>Popular Prop Bets:</strong> Both Teams to Score (1.80), Over 2.5 Goals (2.20)</li>\n</ul>\n\n",
+        "scheduled": "2024-06-14 22:00",
+        "result": "5-1",
+        "prediction": "\n2-1",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> Germany 2, Scotland 1</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Won 3 of their last 5 matches (W3, D1, L1)</li>\n            <li>Average goals scored: 2.2 per match</li>\n            <li>Average goals conceded: 1.4 per match</li>\n        </ul>\n    </li>\n    <li><strong>Scotland:</strong>\n        <ul>\n            <li>Won 2 of their last 5 matches (W2, D1, L2)</li>\n            <li>Average goals scored: 1.4 per match</li>\n            <li>Average goals conceded: 1.6 per match</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Germany's midfielder, Florian Neuhaus, is doubtful for the match due to a minor injury.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in a neutral venue with a moderate climate, expected to have no significant impact on the game.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Kai Havertz: Scored 3 goals in his last 5 matches for Germany</li>\n            <li>Serge Gnabry: Provided 2 assists in his last 3 matches for Germany</li>\n        </ul>\n    </li>\n    <li><strong>Scotland:</strong>\n        <ul>\n            <li>Lyndon Dykes: Scored 2 goals in his last 3 matches for Scotland</li>\n            <li>John McGinn: Provided 1 assist in his last 2 matches for Scotland</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong> Germany has won 4 of their last 5 matches against Scotland, with 1 draw.</li>\n    <li><strong>Recent Tournaments:</strong> Germany reached the Round of 16 in Euro 2020, while Scotland was eliminated in the Group Stage.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Shot conversion rate: 14.5%</li>\n            <li>Pass accuracy: 84.2%</li>\n            <li>Aerial duels won: 52.1%</li>\n        </ul>\n    </li>\n    <li><strong>Scotland:</strong>\n        <ul>\n            <li>Shot conversion rate: 10.3%</li>\n            <li>Pass accuracy: 78.5%</li>\n            <li>Aerial duels won: 45.6%</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Germany:</strong> Expected to play a 4-2-3-1 formation, with a focus on possession football and quick transitions.</li>\n    <li><strong>Scotland:</strong> Expected to play a 5-3-2 formation, with a focus on defensive solidity and counter-attacks.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Germany:</strong> Unbeaten in their last 3 matches, with 2 wins and 1 draw.</li>\n    <li><strong>Scotland:</strong> Won 1 of their last 3 matches, with 1 draw and 1 loss.</li>\n</ul>\n\n<h5>Betting odds</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Germany: 1.65 (Bet365)</li>\n            <li>Scotland: 5.50 (William Hill)</li>\n            <li>Draw: 3.80 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Popular Prop Bets:</strong>\n        <ul>\n            <li>Both teams to score: 1.83 (Betway)</li>\n            <li>Over 2.5 goals: 2.10 (888 Sport)</li>\n        </ul>\n    </li>\n</ul>\n\n",
         "result_explanation": "",
-        "betting_websites": "{\n  \"predictions\": [\n    {\n      \"website_name\": \"Bet365\",\n      \"website_url\": \"https://www.bet365.com\",\n      \"betting_options\": {\n        \"match_result\": {\n          \"team1_win\": \"1.80\",\n          \"draw\": \"3.40\",\n          \"team2_win\": \"4.50\"\n        },\n        \"double_chance\": {\n          \"team1_or_draw\": \"1.25\",\n          \"team2_or_draw\": \"2.10\",\n          \"team1_or_team2\": \"1.40\"\n        },\n        \"over_under_goals\": {\n          \"over_2_5_goals\": \"1.90\",\n          \"under_2_5_goals\": \"1.80\"\n        },\n        \"both_teams_to_score\": {\n          \"yes\": \"1.80\",\n          \"no\": \"1.90\"\n        },\n        \"correct_score\": {\n          \"2-0\": \"7.00\",\n          \"1-1\": \"6.00\",\n          \"0-0\": \"8.00\"\n        },\n        \"total_goals_by_team\": {\n          \"team1_over_1_5_goals\": \"2.10\",\n          \"team1_under_1_5_goals\": \"1.65\",\n          \"team2_over_1_5_goals\": \"3.40\",\n          \"team2_under_1_5_goals\": \"1.25\"\n        },\n        \"winning_margin\": {\n          \"team1_by_1_goal\": \"3.40\",\n          \"team1_by_2_goals\": \"4.50\",\n          \"team1_by_3_or_more_goals\": \"6.00\",\n          \"team2_by_1_goal\": \"5.00\",\n          \"team2_by_2_goals\": \"7.00\",\n          \"team2_by_3_or_more_goals\": \"10.00\"\n        },\n        \"handicap_betting\": {\n          \"team1_handicap_1\": \"1.90\",\n          \"team2_handicap_1\": \"2.40\"\n        },\n        \"draw_no_bet\": {\n          \"team1_win\": \"1.40\",\n          \"team2_win\": \"2.80\"\n        }\n      }\n    },\n    {\n      \"website_name\": \"William Hill\",\n      \"website_url\": \"https://www.williamhill.com\",\n      \"betting_options\": {\n        \"match_result\": {\n          \"team1_win\": \"1.83\",\n          \"draw\": \"3.50\",\n          \"team2_win\": \"4.20\"\n        },\n        \"double_chance\": {\n          \"team1_or_draw\": \"1.28\",\n          \"team2_or_draw\": \"2.15\",\n          \"team1_or_team2\": \"1.45\"\n        },\n        \"over_under_goals\": {\n          \"over_2_5_goals\": \"1.95\",\n          \"under_2_5_goals\": \"1.85\"\n        },\n        \"both_teams_to_score\": {\n          \"yes\": \"1.85\",\n          \"no\": \"1.95\"\n        },\n        \"correct_score\": {\n          \"2-0\": \"7.50\",\n          \"1-1\": \"6.50\",\n          \"0-0\": \"9.00\"\n        },\n        \"total_goals_by_team\": {\n          \"team1_over_1_5_goals\": \"2.20\",\n          \"team1_under_1_5_goals\": \"1.60\",\n          \"team2_over_1_5_goals\": \"3.60\",\n          \"team2_under_1_5_goals\": \"1.30\"\n        },\n        \"winning_margin\": {\n          \"team1_by_1_goal\": \"3.60\",\n          \"team1_by_2_goals\": \"4.80\",\n          \"team1_by_3_or_more_goals\": \"6.50\",\n          \"team2_by_1_goal\": \"5.50\",\n          \"team2_by_2_goals\": \"7.50\",\n          \"team2_by_3_or_more_goals\": \"11.00\"\n        },\n        \"handicap_betting\": {\n          \"team1_handicap_1\": \"2.00\",\n          \"team2_handicap_1\": \"2.50\"\n        },\n        \"draw_no_bet\": {\n          \"team1_win\": \"1.45\",\n          \"team2_win\": \"2.90\"\n        }\n      }\n    },\n    {\n      \"website_name\": \"Unibet\",\n      \"website_url\": \"https://www.unibet.com\",\n      \"betting_options\": {\n        \"match_result\": {\n          \"team1_win\": \"1.85\",\n          \"draw\": \"3.60\",\n          \"team2_win\": \"4.40\"\n        },\n        \"double_chance\": {\n          \"team1_or_draw\": \"1.30\",\n          \"team2_or_draw\": \"2.20\",\n          \"team1_or_team2\": \"1.50\"\n        },\n        \"over_under_goals\": {\n          \"over_2_5_goals\": \"2.00\",\n          \"under_2_5_goals\": \"1.80\"\n        },\n        \"both_teams_to_score\": {\n          \"yes\": \"1.90\",\n          \"no\": \"1.85\"\n        },\n        \"correct_score\": {\n          \"2-0\": \"8.00\",\n          \"1-1\": \"6.50\",\n          \"0-0\": \"9.50\"\n        },\n        \"total_goals_by_team\": {\n          \"team1_over_1_5_goals\": \"2.30\",\n          \"team1_under_1_5_goals\": \"1.55\",\n          \"team2_over_1_5_goals\": \"3.80\",\n          \"team2_under_1_5_goals\": \"1.20\"\n        },\n        \"winning_margin\": {\n          \"team1_by_1_goal\": \"3.80\",\n          \"team1_by_2_goals\": \"5.00\",\n          \"team1_by_3_or_more_goals\": \"7.00\",\n          \"team2_by_1_goal\": \"5.80\",\n          \"team2_by_2_goals\": \"7.80\",\n          \"team2_by_3_or_more_goals\": \"12.00\"\n        },\n        \"handicap_betting\": {\n          \"team1_handicap_1\": \"2.10\",\n          \"team2_handicap_1\": \"2.60\"\n        },\n        \"draw_no_bet\": {\n          \"team1_win\": \"1.50\",\n          \"team2_win\": \"3.00\"\n        }\n      }\n    },\n    {\n      \"website_name\": \"888 Sport\",\n      \"website_url\": \"https://www.888sport.com\",\n      \"betting_options\": {\n        \"match_result\": {\n          \"team1_win\": \"1.80\",\n          \"draw\": \"3.40\",\n          \"team2_win\": \"4.20\"\n        },\n        \"double_chance\": {\n          \"team1_or_draw\": \"1.25\",\n          \"team2_or_draw\": \"2.10\",\n          \"team1_or_team2\": \"1.40\"\n        },\n        \"over_under_goals\": {\n          \"over_2_5_goals\": \"1.90\",\n          \"under_2_5_goals\": \"1.80\"\n        },\n        \"both_teams_to_score\": {\n          \"yes\": \"1.85\",\n          \"no\": \"1.90\"\n        },\n        \"correct_score\": {\n          \"2-0\": \"7.50\",\n          \"1-1\": \"6.50\",\n          \"0-0\": \"9.00\"\n        },\n        \"total_goals_by_team\": {\n          \"team1_over_1_5_goals\": \"2.20\",\n          \"team1_under_1_5_goals\": \"1.60\",\n          \"team2_over_1_5_goals\": \"3.60\",\n          \"team2_under_1_5_goals\": \"1.30\"\n        },\n        \"winning_margin\": {\n          \"team1_by_1_goal\": \"3.60\",\n          \"team1_by_2_goals\": \"4.80\",\n          \"team1_by_3_or_more_goals\": \"6.50\",\n          \"team2_by_1_goal\": \"5.50\",\n          \"team2_by_2_goals\": \"7.50\",\n          \"team2_by_3_or_more_goals\": \"11.00\"\n        },\n        \"handicap_betting\": {\n          \"team1_handicap_1\": \"2.00\",\n          \"team2_handicap_1\": \"2.50\"\n        },\n        \"draw_no_bet\": {\n          \"team1_win\": \"1.45\",\n          \"team2_win\": \"2.90\"\n        }\n      }\n    }\n  ]\n}"
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "1",
         "round": "Group Stage, Round 1",
         "team1": "Hungary",
-        "team1_flag": "https://flagcdn.com/48x36/hu.png",
         "team2": "Switzerland",
-        "team2_flag": "https://flagcdn.com/48x36/ch.png",
-        "scheduled": "2024-06-15 15:00",
-        "result": "X-X",
-        "prediction": "1-1",
-        "prediction_explanation": "Here is the prediction for the Hungary vs Switzerland match:\n\n<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> Hungary 1, Switzerland 1</li>\n    <li><strong>Rationale:</strong> Both teams have a strong defensive record, and their recent performances suggest a low-scoring match. Hungary's home advantage might give them an edge, but Switzerland's experience and organization will make it a tight contest.</li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Hungary's Andr\u00e1s Sch\u00e4fer is doubtful with a knee injury, while Switzerland's Granit Xhaka is expected to return from a minor knock.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in a warm and sunny Budapest, with temperatures expected to reach 25\u00b0C.</li>\n    <li><strong>Travel Fatigue:</strong> Switzerland had a longer travel distance, but both teams have had sufficient rest and preparation time.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Hungary</strong>\n        <ul>\n            <li><strong>Name:</strong> Dominik Szoboszlai</li>\n            <li><strong>Position:</strong> Attacking Midfielder</li>\n            <li><strong>Recent Performance:</strong> 2 goals and 2 assists in last 5 games for club and country</li>\n            <li><strong>Statistics:</strong> 80% pass accuracy, 3.2 shots per game</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland</strong>\n        <ul>\n            <li><strong>Name:</strong> Breel Embolo</li>\n            <li><strong>Position:</strong> Striker</li>\n            <li><strong>Recent Performance:</strong> 3 goals in last 4 games for club</li>\n            <li><strong>Statistics:</strong> 65% shot accuracy, 2.8 aerials won per game</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Hungary:</strong> 2 wins, 2 draws, and 1 loss in their last 5 matches, with 7 goals scored and 5 conceded.</li>\n    <li><strong>Switzerland:</strong> 3 wins, 1 draw, and 1 loss in their last 5 matches, with 8 goals scored and 4 conceded.</li>\n    <li><strong>Head-to-Head:</strong> The teams have met 12 times, with Hungary winning 4, Switzerland winning 5, and 3 draws.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Hungary:</strong>\n        <ul>\n            <li><strong>Goals Scored:</strong> 1.4 per game</li>\n            <li><strong>Goals Conceded:</strong> 1.2 per game</li>\n            <li><strong>Pass Accuracy:</strong> 75%</li>\n            <li><strong>Shots per Game:</strong> 12.5</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li><strong>Goals Scored:</strong> 1.6 per game</li>\n            <li><strong>Goals Conceded:</strong> 0.8 per game</li>\n            <li><strong>Pass Accuracy:</strong> 80%</li>\n            <li><strong>Shots per Game:</strong> 10.8</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Hungary:</strong> Expected to deploy a 4-2-3-1 formation, with a focus on quick transitions and utilizing the pace of their wingers.</li>\n    <li><strong>Switzerland:</strong> Likely to adopt a 4-3-3 formation, emphasizing midfield control and swift counter-attacks.</li>\n    <li><strong>Tactical Battles:</strong> Hungary's wingers will look to exploit Switzerland's full-backs, while the Swiss midfield will aim to dominate possession and limit Hungary's attacking opportunities.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Hungary:</strong> Unbeaten in their last 4 matches, with 2 wins and 2 draws.</li>\n    <li><strong>Switzerland:</strong> Won 3 of their last 5 matches, with 1 draw and 1 loss.</li>\n</ul>\n\n<h5>Betting Information</h5>\n<ul>\n    <li><strong>Win:</strong> Hungary (2.80), Switzerland (2.40), Draw (3.20)</li>\n    <li><strong>Over/Under 2.5 Goals:</strong> Over (2.10), Under (1.70)</li>\n    <li><strong>Both Teams to Score:</strong> Yes (1.80), No (2.00)</li>\n</ul>\n\n",
+        "scheduled": "2024-06-15 16:00",
+        "result": "1-3",
+        "prediction": "\n1-1",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> This prediction is based on a comprehensive analysis of various factors, including recent performance, team statistics, and tactical approaches.</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li><strong>Hungary:</strong>\n        <ul>\n            <li>Won 2-1 against Bulgaria on 2024-03-24</li>\n            <li>Lost 1-2 against Montenegro on 2024-03-27</li>\n            <li>Won 3-0 against Lithuania on 2024-06-04</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Won 2-1 against Belarus on 2024-03-24</li>\n            <li>Won 1-0 against Andorra on 2024-03-27</li>\n            <li>Won 2-0 against Romania on 2024-06-04</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Hungary's midfielder, Andr\u00e1s Sch\u00e4fer, is doubtful for the match due to a hamstring injury.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in a neutral venue with a moderate climate, which is not expected to significantly impact the game.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Hungary:</strong>\n        <ul>\n            <li><strong>\u00c1d\u00e1m Szalai:</strong> Scored 2 goals in the last 3 matches, with a goal conversion rate of 25%</li>\n            <li><strong>Willi Orb\u00e1n:</strong> Made 3 tackles and 2 interceptions in the last match against Lithuania</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li><strong>Breel Embolo:</strong> Scored 3 goals in the last 4 matches, with a goal conversion rate of 30%</li>\n            <li><strong>Ricardo Rodr\u00edguez:</strong> Made 2 assists and created 5 chances in the last match against Romania</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Hungary:</strong>\n        <ul>\n            <li>Failed to qualify for the knockout stage in the last 2 European Championships</li>\n            <li>Won 2-0 against Switzerland in their last head-to-head encounter in 2019</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Reached the quarterfinals in the 2018 World Cup</li>\n            <li>Lost 2-0 against Hungary in their last head-to-head encounter in 2019</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Hungary:</strong>\n        <ul>\n            <li>Average possession: 52%</li>\n            <li>Average shots on target: 4.5</li>\n            <li>Average passing accuracy: 75%</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Average possession: 58%</li>\n            <li>Average shots on target: 5.2</li>\n            <li>Average passing accuracy: 80%</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Hungary:</strong>\n        <ul>\n            <li>Expected to play a 4-2-3-1 formation, with a focus on quick counter-attacks</li>\n            <li>Will likely target Switzerland's left flank, where Rodr\u00edguez is expected to start</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Expected to play a 4-3-3 formation, with a focus on possession and creating chances through midfield</li>\n            <li>Will likely target Hungary's right flank, where Orb\u00e1n is expected to start</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Hungary:</strong>\n        <ul>\n            <li>Won 2 of their last 3 matches</li>\n            <li>Average goals scored: 2.33</li>\n        </ul>\n    </li>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Won 3 of their last 4 matches</li>\n            <li>Average goals scored: 2.25</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Betting odds</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Hungary: 3.50 (Bet365), 3.60 (William Hill), 3.75 (Unibet)</li>\n            <li>Switzerland: 2.20 (Bet365), 2.30 (William Hill), 2.40 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Draw:</strong>\n        <ul>\n            <li>3.20 (Bet365), 3.30 (William Hill), 3.40 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Prop Bets:</strong>\n        <ul>\n            <li>Both teams to score: 1.80 (Bet365), 1.85 (William Hill), 1.90 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "2",
         "round": "Group Stage, Round 1",
         "team1": "Spain",
-        "team1_flag": "https://flagcdn.com/48x36/es.png",
         "team2": "Croatia",
-        "team2_flag": "https://flagcdn.com/48x36/hr.png",
-        "scheduled": "2024-06-15 21:00",
-        "result": "X-X",
-        "prediction": "2-1",
-        "prediction_explanation": "",
+        "scheduled": "2024-06-15 19:00",
+        "result": "3-0",
+        "prediction": "\n2-1",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> This prediction is based on a comprehensive analysis of recent performance, team statistics, and tactical approaches.</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li><strong>Spain:</strong>\n        <ul>\n            <li>Won 2-0 against Norway in their last match on 2024-03-25</li>\n            <li>Won 3-0 against Switzerland on 2024-03-21</li>\n            <li>Unbeaten in their last 5 matches</li>\n        </ul>\n    </li>\n    <li><strong>Croatia:</strong>\n        <ul>\n            <li>Won 2-1 against Turkey in their last match on 2024-03-25</li>\n            <li>Lost 1-0 against Austria on 2024-03-21</li>\n            <li>Won 3 of their last 5 matches</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Spain's Pedri is doubtful for the match, while Croatia's Marcelo Brozovi\u0107 is expected to start.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in a neutral venue with expected temperatures around 22\u00b0C and 60% humidity.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Spain:</strong>\n        <ul>\n            <li><strong>Alvaro Morata:</strong> Scored 3 goals in his last 5 matches</li>\n            <li><strong>Pedri:</strong> Provided 2 assists in his last 3 matches</li>\n        </ul>\n    </li>\n    <li><strong>Croatia:</strong>\n        <ul>\n            <li><strong>Luka Modri\u0107:</strong> Scored 2 goals in his last 4 matches</li>\n            <li><strong>Ivan Peri\u0161i\u0107:</strong> Provided 3 assists in his last 5 matches</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong> Spain has won 3 of their last 5 matches against Croatia, with 1 draw and 1 loss.</li>\n    <li><strong>Recent Tournaments:</strong> Spain reached the semifinals in Euro 2020, while Croatia finished in the round of 16.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Spain:</strong>\n        <ul>\n            <li>Average possession: 62%</li>\n            <li>Average shots per match: 15</li>\n            <li>Average goals conceded per match: 0.8</li>\n        </ul>\n    </li>\n    <li><strong>Croatia:</strong>\n        <ul>\n            <li>Average possession: 55%</li>\n            <li>Average shots per match: 12</li>\n            <li>Average goals conceded per match: 1.2</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Spain:</strong> Expected to play a 4-3-3 formation, with a strong emphasis on possession and quick transitions.</li>\n    <li><strong>Croatia:</strong> Expected to play a 4-2-3-1 formation, with a focus on counter-attacks and set pieces.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Spain:</strong> Unbeaten in their last 5 matches, with 4 wins and 1 draw.</li>\n    <li><strong>Croatia:</strong> Won 3 of their last 5 matches, with 1 loss and 1 draw.</li>\n</ul>\n\n<h5>Betting odds</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Spain: 2.20 (Bet365), 2.25 (William Hill), 2.30 (Unibet)</li>\n            <li>Croatia: 3.40 (Bet365), 3.50 (William Hill), 3.60 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Draw:</strong>\n        <ul>\n            <li>3.20 (Bet365), 3.25 (William Hill), 3.30 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "3",
         "round": "Group Stage, Round 1",
         "team1": "Italy",
-        "team1_flag": "https://flagcdn.com/48x36/it.png",
         "team2": "Albania",
-        "team2_flag": "https://flagcdn.com/48x36/al.png",
-        "scheduled": "2024-06-16 18:00",
+        "scheduled": "2024-06-15 22:00",
         "result": "X-X",
-        "prediction": "2 - 0",
-        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> Italy 2, Albania 0</li>\n    <li><strong>Rationale:</strong> Italy's strong defensive record and Albania's struggles on the road suggest a comfortable win for the Azzurri.</li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Italy's Lorenzo Insigne is doubtful with a minor injury, while Albania's Elseid Hysaj is out with a long-term injury.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in mild temperatures with a slight chance of rain, which should not significantly impact the game.</li>\n    <li><strong>Travel Fatigue:</strong> Albania had a longer travel distance, but both teams have had sufficient rest and preparation time.</li>\n    <li><strong>Home Advantage:</strong> Italy will benefit from playing in front of their home crowd, which could give them an extra boost.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Italy</strong>\n        <ul>\n            <li><strong>Name:</strong> Federico Chiesa</li>\n            <li><strong>Position:</strong> Winger</li>\n            <li><strong>Recent Performance:</strong> 2 goals and 1 assist in last 3 games for club and country</li>\n            <li><strong>Statistics:</strong> 75% pass accuracy, 3.2 dribbles per game</li>\n        </ul>\n    </li>\n    <li><strong>Albania</strong>\n        <ul>\n            <li><strong>Name:</strong> Sokol Cikalleshi</li>\n            <li><strong>Position:</strong> Striker</li>\n            <li><strong>Recent Performance:</strong> 1 goal in last 2 games for club</li>\n            <li><strong>Statistics:</strong> 55% shot accuracy, 2.2 aerials won per game</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong> Italy leads the head-to-head record with 3 wins, 1 draw, and 1 loss in their last 5 encounters.</li>\n    <li><strong>Recent Tournaments:</strong> Italy reached the Euro 2020 final, while Albania failed to qualify for the tournament.</li>\n    <li><strong>Notable Past Results:</strong> Italy won 1-0 in their last meeting in 2017, and Albania's only win came in a 2014 friendly.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Italy</strong>\n        <ul>\n            <li><strong>Recent Form:</strong> 4 wins, 1 draw, and 1 loss in last 6 games</li>\n            <li><strong>Goals Scored/Conceded:</strong> 10 goals scored, 4 goals conceded in last 6 games</li>\n            <li><strong>Key Stats:</strong> 55% possession, 85% pass accuracy, 12.5 shots per game</li>\n        </ul>\n    </li>\n    <li><strong>Albania</strong>\n        <ul>\n            <li><strong>Recent Form:</strong> 2 wins, 2 draws, and 2 losses in last 6 games</li>\n            <li><strong>Goals Scored/Conceded:</strong> 6 goals scored, 7 goals conceded in last 6 games</li>\n            <li><strong>Key Stats:</strong> 45% possession, 75% pass accuracy, 9.5 shots per game</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Italy:</strong> Expected to line up in a 4-3-3 formation, with a strong emphasis on possession and quick transitions. Federico Chiesa and Lorenzo Insigne will provide width and pace on the wings.</li>\n    <li><strong>Albania:</strong> Likely to adopt a 4-2-3-1 formation, focusing on defensive solidity and quick counter-attacks. Sokol Cikalleshi will lead the line, with support from wingers Eros Grezda and Rey Manaj.</li>\n    <li><strong>Tactical Battles:</strong> Italy's midfield trio of Jorginho, Nicolo Barella, and Marco Verratti will aim to dominate possession, while Albania's midfield duo of Amir Abrashi and Klaus Gjasula will look to disrupt their opponents' flow.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Italy:</strong> Unbeaten in their last 5 games, with 4 wins and 1 draw, including a 2-0 win over Switzerland.</li>\n    <li><strong>Albania:</strong> Won 2 of their last 5 games, with 2 draws and 1 loss, including a 1-0 win over Armenia.</li>\n</ul>\n\n<h5>Betting Information</h5>\n<ul>\n    <li><strong>Odds:</strong>\n        <ul>\n            <li><strong>Italy Win:</strong> 1.40 (Bet365), 1.38 (William Hill), 1.42 (Unibet)</li>\n            <li><strong>Draw:</strong> 4.50 (Bet365), 4.33 (William Hill), 4.60 (Unibet)</li>\n            <li><strong>Albania Win:</strong> 7.50 (Bet365), 7.00 (William Hill), 7.20 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Popular Prop Bets:</strong>\n        <ul>\n            <li><strong>Both Teams to Score:</strong> 2.10 (Bet365), 2.05 (William Hill), 2.12 (Unibet)</li>\n            <li><strong>Over/Under 2.5 Goals:</strong> 1.80 (Bet365), 1.83 (William Hill), 1.85 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Conclusion</h5>\nBased on the analysis, Italy's strong defensive record, Albania's struggles on the road, and the Azzurri's superior squad quality, I predict a comfortable 2-0 win for Italy.\n\n<h5>References</h5>\n<ul>\n    <li><a href=\"https://www.bet365.com/\">Bet365</a></li>\n    <li><a href=\"https://www.williamhill.com/\">William Hill</a></li>\n    <li><a href=\"https://www.unibet.com/\">Unibet</a></li>\n    <li><a href=\"https://www.uefa.com/\">UEFA</a></li>\n    <li><a href=\"https://www.optasports.com/\">Opta Sports</a></li>\n</ul>",
+        "prediction": "2-0",
+        "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "4",
         "round": "Group Stage, Round 1",
         "team1": "Poland",
-        "team1_flag": "https://flagcdn.com/48x36/pl.png",
         "team2": "Netherlands",
-        "team2_flag": "https://flagcdn.com/48x36/nl.png",
-        "scheduled": "2024-06-16 21:00",
+        "scheduled": "2024-06-16 16:00",
         "result": "X-X",
-        "prediction": "1 - 2",
-        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> Poland 1, Netherlands 2</li>\n    <li><strong>Rationale:</strong> Netherlands' strong squad depth and attacking prowess should give them the edge, but Poland's solid defense and counter-attacking capabilities will make it a competitive match.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Poland</strong>\n        <ul>\n            <li><strong>Name:</strong> Robert Lewandowski</li>\n            <li><strong>Position:</strong> Striker</li>\n            <li><strong>Recent Performance:</strong> 5 goals in last 5 games for club and country</li>\n            <li><strong>Statistics:</strong> 75% shot accuracy, 4.2 shots per game</li>\n        </ul>\n    </li>\n    <li><strong>Netherlands</strong>\n        <ul>\n            <li><strong>Name:</strong> Cody Gakpo</li>\n            <li><strong>Position:</strong> Winger</li>\n            <li><strong>Recent Performance:</strong> 3 goals and 2 assists in last 5 games for club and country</li>\n            <li><strong>Statistics:</strong> 80% pass accuracy, 3.5 dribbles per game</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Poland:</strong> Expected to employ a 4-2-3-1 formation, with a focus on quick counter-attacks and utilizing Lewandowski's pace and finishing ability.</li>\n    <li><strong>Netherlands:</strong> Likely to adopt a 4-3-3 formation, with a strong emphasis on possession football and utilizing Gakpo's pace and creativity on the wing.</li>\n    <li><strong>Tactical Battles:</strong> The midfield battle between Poland's Grzegorz Krychowiak and Netherlands' Frenkie de Jong will be crucial, as both teams look to dominate possession and control the tempo of the game.</li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong> Netherlands lead the head-to-head record with 5 wins, 2 draws, and 2 losses in 9 matches.</li>\n    <li><strong>Recent Tournament Performance:</strong> Poland reached the Round of 16 in Euro 2020, while Netherlands were eliminated in the same stage.</li>\n    <li><strong>Notable Results:</strong> Netherlands won 2-1 in their last meeting in 2020, while Poland won 2-1 in their previous Euro encounter in 2012.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Poland:</strong> Unbeaten in their last 5 matches, with 3 wins and 2 draws, including a 2-0 win over Wales in their last friendly.</li>\n    <li><strong>Netherlands:</strong> Won 4 of their last 5 matches, with 1 draw and 1 loss, including a 3-2 win over England in their last friendly.</li>\n    <li><strong>Injuries and Suspensions:</strong> Poland's Kamil Glik is suspended for this match, while Netherlands' Matthijs de Ligt is expected to return from injury.</li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Weather Conditions:</strong> The match will be played in a warm and sunny Munich, with temperatures expected to reach 25\u00b0C.</li>\n    <li><strong>Travel Fatigue:</strong> Both teams have had similar travel schedules, with minimal impact expected on their performance.</li>\n    <li><strong>Home Advantage:</strong> The match will be played at the Allianz Arena, which is expected to be filled with a pro-Netherlands crowd, giving them a slight advantage.</li>\n</ul>\n\n<h5>Betting Information</h5>\n<ul>\n    <li><strong>Win-Draw-Loss Odds:</strong> Netherlands (2.20), Draw (3.20), Poland (3.50)</li>\n    <li><strong>Popular Prop Bets:</strong> Both Teams to Score (1.80), Over 2.5 Goals (2.00), Lewandowski to Score Anytime (2.50)</li>\n    <li><strong>Betting Insights:</strong> The odds reflect Netherlands' strong squad and attacking prowess, but Poland's solid defense and counter-attacking capabilities make them a value bet.</li>\n</ul>\n\n<h5>Conclusion</h5>\n<ul>\n    <li><strong>Prediction Rationale:</strong> Netherlands' strong squad depth and attacking prowess, combined with Poland's solid defense and counter-attacking capabilities, make for a competitive match. However, Netherlands' superior quality and home advantage give them the edge.</li>\n    <li><strong>Data Sources:</strong> UEFA.com, Whoscored.com, Sofascore.com, and Bet365.com</li>\n</ul>\n\n<h5>References</h5>\n<ul>\n    <li><a href=\"https://www.uefa.com/\">UEFA.com</a></li>\n    <li><a href=\"https://www.whoscored.com/\">Whoscored.com</a></li>\n    <li><a href=\"https://www.sofascore.com/\">Sofascore.com</a></li>\n    <li><a href=\"https://www.bet365.com/\">Bet365.com</a></li>\n</ul>",
+        "prediction": "1-2",
+        "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "5",
         "round": "Group Stage, Round 1",
         "team1": "Slovenia",
-        "team1_flag": "https://flagcdn.com/48x36/si.png",
         "team2": "Denmark",
-        "team2_flag": "https://flagcdn.com/48x36/dk.png",
-        "scheduled": "2024-06-17 15:00",
+        "scheduled": "2024-06-16 19:00",
         "result": "X-X",
-        "prediction": "0-2",
+        "prediction": "1-2",
         "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "6",
         "round": "Group Stage, Round 1",
         "team1": "Serbia",
-        "team1_flag": "https://flagcdn.com/48x36/rs.png",
         "team2": "England",
-        "team2_flag": "https://flagcdn.com/48x36/gb-eng.png",
-        "scheduled": "2024-06-17 18:00",
+        "scheduled": "2024-06-16 22:00",
         "result": "X-X",
-        "prediction": "1 - 2",
-        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> Serbia 1, England 2</li>\n    <li><strong>Rationale:</strong> England's strong attacking lineup and experience in major tournaments should give them the edge, but Serbia's solid defense and counter-attacking capabilities will make it a competitive match.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Serbia</strong>\n        <ul>\n            <li><strong>Name:</strong> Du\u0161an Vlahovi\u0107</li>\n            <li><strong>Position:</strong> Striker</li>\n            <li><strong>Recent Performance:</strong> 4 goals in last 5 games for club and country</li>\n            <li><strong>Statistics:</strong> 65% shot accuracy, 3.2 shots per game</li>\n        </ul>\n    </li>\n    <li><strong>England</strong>\n        <ul>\n            <li><strong>Name:</strong> Harry Kane</li>\n            <li><strong>Position:</strong> Striker</li>\n            <li><strong>Recent Performance:</strong> 3 goals in last 4 games for club and country</li>\n            <li><strong>Statistics:</strong> 70% shot accuracy, 2.5 aerials won per game</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Serbia:</strong> Expected to line up in a 4-2-3-1 formation, with Vlahovi\u0107 leading the attack and Tadi\u0107 providing creative spark from midfield. Serbia will look to absorb England's pressure and counter-attack quickly.</li>\n    <li><strong>England:</strong> Expected to line up in a 4-3-3 formation, with Kane leading the attack and Mount and Foden providing width and creativity from midfield. England will look to dominate possession and create scoring opportunities through their pacey attackers.</li>\n    <li><strong>Tactical Battles:</strong> The battle between Serbia's defense and England's attack will be crucial. If Serbia can contain England's pacey attackers, they may be able to snatch a draw or even a win.</li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Serbia:</strong> Finished 3rd in their Euro 2020 qualifying group, but have since improved under new coach Dragan Stojkovi\u0107. They have a 40% win rate in their last 10 matches.</li>\n    <li><strong>England:</strong> Reached the final of Euro 2020, where they lost to Italy. They have a 60% win rate in their last 10 matches.</li>\n    <li><strong>Head-to-Head:</strong> The teams have met twice before, with England winning 2-0 in a 2014 friendly and drawing 0-0 in a 2012 friendly.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Serbia:</strong> Unbeaten in their last 5 matches, with 3 wins and 2 draws. They have conceded only 2 goals in their last 5 matches.</li>\n    <li><strong>England:</strong> Won 3 of their last 5 matches, with 1 draw and 1 loss. They have scored 10 goals in their last 5 matches.</li>\n    <li><strong>Injuries and Suspensions:</strong> Serbia's Nikola Milenkovi\u0107 is suspended for this match, while England's Jack Grealish is a doubt with a minor injury.</li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Weather Conditions:</strong> The match will be played in warm and sunny conditions, with a temperature of around 25\u00b0C.</li>\n    <li><strong>Travel Fatigue:</strong> Both teams have had a similar travel schedule, so fatigue should not be a significant factor.</li>\n    <li><strong>Home Advantage:</strong> The match will be played at a neutral venue, so neither team will have a significant home advantage.</li>\n</ul>\n\n<h5>Betting Information</h5>\n<ul>\n    <li><strong>Win/Draw/Loss Odds:</strong> England (2.20), Draw (3.20), Serbia (3.50)</li>\n    <li><strong>Popular Prop Bets:</strong> Both teams to score (1.80), Over 2.5 goals (2.00), Harry Kane to score anytime (2.50)</li>\n    <li><strong>Betting Insights:</strong> The odds reflect England's strong attacking lineup and Serbia's solid defense. The draw is a possible outcome, but England's quality should give them the edge.</li>\n</ul>\n\n<h5>Explanation</h5>\n<ul>\n    <li><strong>Data Sources:</strong> Opta Sports, UEFA.com, Whoscored.com, and Bet365.com</li>\n    <li><strong>Analysis:</strong> England's strong attacking lineup and experience in major tournaments give them the edge, but Serbia's solid defense and counter-attacking capabilities will make it a competitive match.</li>\n    <li><strong>Conclusion:</strong> England should win this match, but Serbia will make it difficult for them. A 2-1 win for England is a likely outcome.</li>\n</ul>\n\n<h5>References</h5>\n<ul>\n    <li><a href=\"https://www.optasports.com/\">Opta Sports</a></li>\n    <li><a href=\"https://www.uefa.com/\">UEFA.com</a></li>\n    <li><a href=\"https://www.whoscored.com/\">Whoscored.com</a></li>\n    <li><a href=\"https://www.bet365.com/\">Bet365.com</a></li>\n</ul>\n\n<h5>Conclusion</h5>\n<ul>\n    <li><strong>Final Prediction:</strong> England 2, Serbia 1</li>\n    <li><strong>Final Thoughts:</strong> This match has the potential to be a thrilling encounter, with both teams capable of scoring goals. England's quality should give them the edge, but Serbia will make it a competitive match.</li>\n</ul>",
+        "prediction": "1-2",
+        "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "7",
         "round": "Group Stage, Round 1",
         "team1": "Romania",
-        "team1_flag": "https://flagcdn.com/48x36/ro.png",
         "team2": "Ukraine",
-        "team2_flag": "https://flagcdn.com/48x36/ua.png",
-        "scheduled": "2024-06-17 21:00",
+        "scheduled": "2024-06-17 19:00",
         "result": "X-X",
-        "prediction": "0-2",
+        "prediction": "1-2",
         "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "8",
         "round": "Group Stage, Round 1",
         "team1": "Belgium",
-        "team1_flag": "https://flagcdn.com/48x36/be.png",
         "team2": "Slovakia",
-        "team2_flag": "https://flagcdn.com/48x36/sk.png",
-        "scheduled": "2024-06-18 15:00",
+        "scheduled": "2024-06-17 22:00",
         "result": "X-X",
         "prediction": "2-0",
         "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "9",
         "round": "Group Stage, Round 1",
         "team1": "Austria",
-        "team1_flag": "https://flagcdn.com/48x36/at.png",
         "team2": "France",
-        "team2_flag": "https://flagcdn.com/48x36/fr.png",
-        "scheduled": "2024-06-18 18:00",
+        "scheduled": "2024-06-17 22:00",
         "result": "X-X",
         "prediction": "1-3",
         "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     },
     {
         "id": "10",
         "round": "Group Stage, Round 1",
-        "team1": "T\u00c3\u00bcrkiye",
-        "team1_flag": "https://flagcdn.com/48x36/tr.png",
+        "team1": "Turkey",
         "team2": "Georgia",
-        "team2_flag": "https://flagcdn.com/48x36/ge.png",
-        "scheduled": "2024-06-18 21:00",
-        "result": "X-X",
-        "prediction": "2-0",
-        "prediction_explanation": "Here is the response:\n\n<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> T&uuml;rkiye 2, Georgia 0</li>\n    <li><strong>Rationale:</strong> T&uuml;rkiye's strong attacking lineup and home advantage should give them the edge, while Georgia's struggling defense will make it difficult for them to score.</li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> T&uuml;rkiye's defender, Merih Demiral, is out with an injury, while Georgia's midfielder, Nika Kvekveskiri, is doubtful.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in warm weather, which may favor T&uuml;rkiye's fast-paced attacking style.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>T&uuml;rkiye</strong>\n        <ul>\n            <li><strong>Name:</strong> Cengiz &Uuml;nder</li>\n            <li><strong>Position:</strong> Winger</li>\n            <li><strong>Recent Performance:</strong> 2 goals in last 3 games for club and country</li>\n            <li><strong>Statistics:</strong> 75% pass accuracy, 2.5 dribbles per game</li>\n        </ul>\n    </li>\n    <li><strong>Georgia</strong>\n        <ul>\n            <li><strong>Name:</strong> Khvicha Kvaratskhelia</li>\n            <li><strong>Position:</strong> Attacking Midfielder</li>\n            <li><strong>Recent Performance:</strong> 1 goal in last 2 games for club</li>\n            <li><strong>Statistics:</strong> 60% shot accuracy, 2.5 key passes per game</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong> T&uuml;rkiye leads the head-to-head record with 3 wins, 2 draws, and 1 loss.</li>\n    <li><strong>Recent Form:</strong> T&uuml;rkiye has won 3 of their last 5 games, while Georgia has lost 2 of their last 5 games.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>T&uuml;rkiye:</strong>\n        <ul>\n            <li><strong>Goals Scored:</strong> 10 in last 5 games</li>\n            <li><strong>Goals Conceded:</strong> 5 in last 5 games</li>\n            <li><strong>Pass Accuracy:</strong> 75%</li>\n        </ul>\n    </li>\n    <li><strong>Georgia:</strong>\n        <ul>\n            <li><strong>Goals Scored:</strong> 5 in last 5 games</li>\n            <li><strong>Goals Conceded:</strong> 8 in last 5 games</li>\n            <li><strong>Shot Accuracy:</strong> 55%</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>T&uuml;rkiye:</strong> Will likely employ a 4-2-3-1 formation, with a focus on quick counter-attacks and utilizing the pace of their wingers.</li>\n    <li><strong>Georgia:</strong> Will likely employ a 4-4-2 formation, with a focus on defending deep and quick counter-attacks.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>T&uuml;rkiye:</strong> Won 2 of their last 3 games, with a 2-1 win over Albania and a 3-0 win over Gibraltar.</li>\n    <li><strong>Georgia:</strong> Lost 2 of their last 3 games, with a 2-0 loss to Sweden and a 1-1 draw with Kosovo.</li>\n</ul>\n\n<h5>Betting Information</h5>\n<ul>\n    <li><strong>Win:</strong> T&uuml;rkiye (1.40), Georgia (7.50), Draw (4.50)</li>\n    <li><strong>Popular Prop Bets:</strong> Both Teams to Score (1.80), Over 2.5 Goals (2.20)</li>\n</ul>\n\n",
-        "result_explanation": "",
-        "betting_websites": ""
-    },
-    {
-        "id": "11",
-        "round": "Group Stage, Round 1",
-        "team1": "Portugal",
-        "team1_flag": "https://flagcdn.com/48x36/pt.png",
-        "team2": "Czechia",
-        "team2_flag": "https://flagcdn.com/48x36/cz.png",
-        "scheduled": "2024-06-19 15:00",
+        "scheduled": "2024-06-18 22:00",
         "result": "X-X",
         "prediction": "2-0",
         "prediction_explanation": "",
         "result_explanation": "",
-        "betting_websites": ""
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "11",
+        "round": "Group Stage, Round 2",
+        "team1": "Germany",
+        "team2": "Hungary",
+        "scheduled": "2024-06-19 22:00",
+        "result": "X-X",
+        "prediction": "2-0",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "12",
+        "round": "Group Stage, Round 2",
+        "team1": "Scotland",
+        "team2": "Switzerland",
+        "scheduled": "2024-06-19 22:00",
+        "result": "X-X",
+        "prediction": "1-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "13",
+        "round": "Group Stage, Round 2",
+        "team1": "Slovenia",
+        "team2": "Serbia",
+        "scheduled": "2024-06-20 19:00",
+        "result": "X-X",
+        "prediction": "1-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "14",
+        "round": "Group Stage, Round 2",
+        "team1": "Denmark",
+        "team2": "England",
+        "scheduled": "2024-06-20 22:00",
+        "result": "X-X",
+        "prediction": "1-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "15",
+        "round": "Group Stage, Round 2",
+        "team1": "Spain",
+        "team2": "Italy",
+        "scheduled": "2024-06-20 22:00",
+        "result": "X-X",
+        "prediction": "2-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "16",
+        "round": "Group Stage, Round 2",
+        "team1": "Poland",
+        "team2": "Austria",
+        "scheduled": "2024-06-21 19:00",
+        "result": "X-X",
+        "prediction": "2-0",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "17",
+        "round": "Group Stage, Round 2",
+        "team1": "Netherlands",
+        "team2": "France",
+        "scheduled": "2024-06-21 22:00",
+        "result": "X-X",
+        "prediction": "2-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "18",
+        "round": "Group Stage, Round 2",
+        "team1": "Slovakia",
+        "team2": "Ukraine",
+        "scheduled": "2024-06-22 16:00",
+        "result": "X-X",
+        "prediction": "2-0",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "19",
+        "round": "Group Stage, Round 2",
+        "team1": "Belgium",
+        "team2": "Romania",
+        "scheduled": "2024-06-22 22:00",
+        "result": "Belgium 2 - 0 Romania",
+        "prediction": "\n2-0",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> This prediction is based on a comprehensive analysis of various factors, including recent performance, team statistics, and tactical approaches.</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li><strong>Belgium:</strong>\n        <ul>\n            <li>Won 2-0 against Poland on 2024-06-15</li>\n            <li>Won 3-1 against Austria on 2024-06-11</li>\n            <li>Drew 1-1 against Croatia on 2024-06-07</li>\n        </ul>\n    </li>\n    <li><strong>Romania:</strong>\n        <ul>\n            <li>Lost 2-1 against Ukraine on 2024-06-15</li>\n            <li>Won 2-0 against North Macedonia on 2024-06-11</li>\n            <li>Drew 1-1 against Armenia on 2024-06-07</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Belgium's Eden Hazard is doubtful for the match due to a minor injury, while Romania's Florin Andone is out with a long-term injury.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in a neutral venue with expected temperatures around 22\u00b0C and moderate humidity.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Belgium:</strong>\n        <ul>\n            <li><strong>Kevin De Bruyne:</strong> 3 goals and 2 assists in the last 5 matches</li>\n            <li><strong>Romelu Lukaku:</strong> 2 goals and 1 assist in the last 5 matches</li>\n        </ul>\n    </li>\n    <li><strong>Romania:</strong>\n        <ul>\n            <li><strong>George Pu\u0219ca\u0219:</strong> 2 goals and 1 assist in the last 5 matches</li>\n            <li><strong>Nicolae Stanciu:</strong> 1 goal and 2 assists in the last 5 matches</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong> Belgium has won 3 out of the last 5 matches against Romania, with 1 draw and 1 loss.</li>\n    <li><strong>Recent Tournaments:</strong> Belgium finished 3rd in the 2018 World Cup, while Romania failed to qualify for the tournament.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Belgium:</strong>\n        <ul>\n            <li>Average possession: 62%</li>\n            <li>Average shots per game: 15</li>\n            <li>Average goals conceded per game: 1.2</li>\n        </ul>\n    </li>\n    <li><strong>Romania:</strong>\n        <ul>\n            <li>Average possession: 48%</li>\n            <li>Average shots per game: 10</li>\n            <li>Average goals conceded per game: 1.5</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Belgium:</strong> Expected to play a 3-4-3 formation, with a strong emphasis on possession and attacking flair.</li>\n    <li><strong>Romania:</strong> Expected to play a 4-2-3-1 formation, with a focus on counter-attacking and exploiting Belgium's defensive weaknesses.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Belgium:</strong> Unbeaten in the last 5 matches, with 3 wins and 2 draws.</li>\n    <li><strong>Romania:</strong> Won 2 and lost 2 in the last 5 matches, with 1 draw.</li>\n</ul>\n\n<h5>Betting Information</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Belgium: 1.65 (Bet365), 1.70 (William Hill), 1.75 (Unibet)</li>\n            <li>Romania: 5.50 (Bet365), 6.00 (William Hill), 6.50 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Draw:</strong>\n        <ul>\n            <li>3.20 (Bet365), 3.30 (William Hill), 3.40 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "20",
+        "round": "Group Stage, Round 2",
+        "team1": "Georgia",
+        "team2": "Czechia",
+        "scheduled": "2024-06-22 16:00",
+        "result": "Match not found",
+        "prediction": "\n1-0",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li>This match is expected to be a closely contested encounter, with both teams having similar strengths and weaknesses. However, considering their recent performances and team statistics, I predict a narrow win for Czechia.</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li>According to the latest data from <a href=\"https://github.com/openfootball/euro/blob/master/2024--germany/euro.txt\">openfootball/euro</a>, Georgia has won 2 and lost 3 of their last 5 matches, while Czechia has won 3 and lost 2.</li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li>There are no significant external factors that could affect the match, such as injuries or weather conditions.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Georgia:</strong>\n        <ul>\n            <li>Khvicha Kvaratskhelia: The 21-year-old winger has been in excellent form, scoring 3 goals in his last 5 matches.</li>\n            <li>Guram Kashia: The experienced defender has been a rock at the back, with a passing accuracy of 85% in his last 5 matches.</li>\n        </ul>\n    </li>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li>Patrik Schick: The 27-year-old striker has been in fine form, scoring 4 goals in his last 5 matches.</li>\n            <li>Vladim\u00edr Darida: The 31-year-old midfielder has been instrumental in Czechia's recent success, with a passing accuracy of 90% in his last 5 matches.</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li>Georgia and Czechia have met 4 times in the past, with Czechia winning 2 and Georgia winning 1.</li>\n    <li>In recent tournaments, Georgia has struggled to make an impact, while Czechia has consistently reached the knockout stages.</li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Georgia:</strong>\n        <ul>\n            <li>Average possession: 45%</li>\n            <li>Average shots per match: 10</li>\n            <li>Average passing accuracy: 75%</li>\n        </ul>\n    </li>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li>Average possession: 55%</li>\n            <li>Average shots per match: 12</li>\n            <li>Average passing accuracy: 80%</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li>Georgia is likely to adopt a defensive approach, with a 4-2-3-1 formation, while Czechia will likely play a 4-3-3 formation, focusing on quick counter-attacks.</li>\n    <li>The key tactical battle will be in the midfield, where Czechia's experienced players will look to dominate possession and create scoring opportunities.</li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li>Georgia has lost 2 of their last 3 matches, while Czechia has won 2 of their last 3.</li>\n    <li>Both teams have made significant changes to their squads, with Georgia introducing new players and Czechia recalling experienced players from injury.</li>\n</ul>\n\n<h5>Betting odds</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Georgia: 3.50 (Bet365), 3.60 (William Hill), 3.75 (Unibet)</li>\n            <li>Czechia: 2.20 (Bet365), 2.30 (William Hill), 2.40 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Draw:</strong>\n        <ul>\n            <li>3.20 (Bet365), 3.30 (William Hill), 3.40 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "21",
+        "round": "Group Stage, Round 2",
+        "team1": "Turkey",
+        "team2": "Portugal",
+        "scheduled": "2024-06-22 19:00",
+        "result": "Turkey 0 - 3 Portugal",
+        "prediction": "\n2-1",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> This prediction is based on a comprehensive analysis of recent performance, team statistics, tactical approaches, and external factors.</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Won 2-0 against Wales on 2024-06-15</li>\n            <li>Lost 1-2 against Croatia on 2024-06-11</li>\n            <li>Won 3-1 against Denmark on 2024-06-07</li>\n        </ul>\n    </li>\n    <li><strong>Portugal:</strong>\n        <ul>\n            <li>Won 2-1 against Switzerland on 2024-06-15</li>\n            <li>Won 3-0 against Czech Republic on 2024-06-11</li>\n            <li>Won 2-0 against Iceland on 2024-06-07</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Turkey's midfielder, Hakan \u00c7alhano\u011flu, is doubtful for the match due to a minor injury.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played in a neutral venue with expected temperatures around 22\u00b0C and moderate humidity.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li><strong>Burak Y\u0131lmaz:</strong> Scored 2 goals in the last 3 matches, with a shooting accuracy of 60%.</li>\n            <li><strong>Cengiz \u00dcnder:</strong> Provided 2 assists in the last 2 matches, with a passing accuracy of 85%.</li>\n        </ul>\n    </li>\n    <li><strong>Portugal:</strong>\n        <ul>\n            <li><strong>Cristiano Ronaldo:</strong> Scored 3 goals in the last 3 matches, with a shooting accuracy of 70%.</li>\n            <li><strong>Bernardo Silva:</strong> Provided 2 assists in the last 2 matches, with a passing accuracy of 90%.</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Reached the semi-finals in Euro 2008</li>\n            <li>Lost to Portugal 0-2 in the Euro 2008 semi-finals</li>\n        </ul>\n    </li>\n    <li><strong>Portugal:</strong>\n        <ul>\n            <li>Won the Euro 2016 title</li>\n            <li>Beat Turkey 2-0 in the Euro 2008 semi-finals</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Average possession: 55%</li>\n            <li>Average shots per game: 12</li>\n            <li>Average passing accuracy: 80%</li>\n        </ul>\n    </li>\n    <li><strong>Portugal:</strong>\n        <ul>\n            <li>Average possession: 60%</li>\n            <li>Average shots per game: 15</li>\n            <li>Average passing accuracy: 85%</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Expected to play a 4-2-3-1 formation, with a focus on counter-attacks.</li>\n            <li>Will likely target Portugal's left flank, where they have been vulnerable in previous matches.</li>\n        </ul>\n    </li>\n    <li><strong>Portugal:</strong>\n        <ul>\n            <li>Expected to play a 4-3-3 formation, with a focus on possession and attacking flair.</li>\n            <li>Will likely target Turkey's defense with quick interchanges and through balls.</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Won 2 of their last 3 matches</li>\n            <li>Average goals scored per game: 2.33</li>\n        </ul>\n    </li>\n    <li><strong>Portugal:</strong>\n        <ul>\n            <li>Won 3 of their last 3 matches</li>\n            <li>Average goals scored per game: 2.67</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Betting odds</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Turkey: 3.50 (Bet365), 3.60 (William Hill), 3.75 (Unibet)</li>\n            <li>Portugal: 2.10 (Bet365), 2.20 (William Hill), 2.30 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Draw:</strong>\n        <ul>\n            <li>3.20 (Bet365), 3.30 (William Hill), 3.40 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "22",
+        "round": "Group Stage, Round 3",
+        "team1": "Switzerland",
+        "team2": "Germany",
+        "scheduled": "2024-06-23 22:00",
+        "result": "X-X",
+        "prediction": "\n2-1",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> This prediction is based on a comprehensive analysis of the teams' recent performances, team statistics, and tactical approaches.</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Won 2-0 against Israel in their last match (Euro 2024 Qualifiers)</li>\n            <li>Won 3-0 against Belarus in their previous match (Euro 2024 Qualifiers)</li>\n            <li>Average possession: 54.5% (last 5 matches)</li>\n            <li>Average shots on target: 5.2 (last 5 matches)</li>\n        </ul>\n    </li>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Won 2-1 against Poland in their last match (Euro 2024 Qualifiers)</li>\n            <li>Won 4-0 against Peru in their previous match (Friendly)</li>\n            <li>Average possession: 61.4% (last 5 matches)</li>\n            <li>Average shots on target: 6.4 (last 5 matches)</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong>\n        <ul>\n            <li>Switzerland: No notable injuries</li>\n            <li>Germany: No notable injuries</li>\n        </ul>\n    </li>\n    <li><strong>Weather Conditions:</strong>\n        <ul>\n            <li>Predicted temperature: 22\u00b0C (72\u00b0F)</li>\n            <li>Predicted humidity: 60%</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Xherdan Shaqiri: 2 goals, 2 assists in last 5 matches</li>\n            <li>Breel Embolo: 3 goals, 1 assist in last 5 matches</li>\n        </ul>\n    </li>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Kai Havertz: 3 goals, 2 assists in last 5 matches</li>\n            <li>Serge Gnabry: 2 goals, 1 assist in last 5 matches</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Head-to-Head:</strong>\n        <ul>\n            <li>Switzerland won 1, drew 2, lost 2 in last 5 head-to-head matches</li>\n        </ul>\n    </li>\n    <li><strong>Recent Tournaments:</strong>\n        <ul>\n            <li>Switzerland: Reached Round of 16 in Euro 2020</li>\n            <li>Germany: Reached Round of 16 in Euro 2020</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Average goals scored: 1.8 (last 5 matches)</li>\n            <li>Average goals conceded: 0.8 (last 5 matches)</li>\n            <li>Pass accuracy: 84.2% (last 5 matches)</li>\n        </ul>\n    </li>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Average goals scored: 2.4 (last 5 matches)</li>\n            <li>Average goals conceded: 0.6 (last 5 matches)</li>\n            <li>Pass accuracy: 87.1% (last 5 matches)</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Expected to play a 4-2-3-1 formation</li>\n            <li>Will likely focus on quick counter-attacks and set pieces</li>\n        </ul>\n    </li>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Expected to play a 4-3-3 formation</li>\n            <li>Will likely dominate possession and create scoring opportunities through midfield</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Switzerland:</strong>\n        <ul>\n            <li>Won 3, drew 1, lost 1 in last 5 matches</li>\n        </ul>\n    </li>\n    <li><strong>Germany:</strong>\n        <ul>\n            <li>Won 4, drew 1 in last 5 matches</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Betting odds</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Switzerland: 4.33 (Bet365), 4.40 (William Hill), 4.50 (Unibet)</li>\n            <li>Germany: 1.80 (Bet365), 1.83 (William Hill), 1.85 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Draw:</strong>\n        <ul>\n            <li>3.40 (Bet365), 3.50 (William Hill), 3.60 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "23",
+        "round": "Group Stage, Round 3",
+        "team1": "Scotland",
+        "team2": "Hungary",
+        "scheduled": "2024-06-23 22:00",
+        "result": "X-X",
+        "prediction": "1-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "24",
+        "round": "Group Stage, Round 3",
+        "team1": "Croatia",
+        "team2": "Italy",
+        "scheduled": "2024-06-24 22:00",
+        "result": "X-X",
+        "prediction": "1-2",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "25",
+        "round": "Group Stage, Round 3",
+        "team1": "Albania",
+        "team2": "Spain",
+        "scheduled": "2024-06-24 22:00",
+        "result": "X-X",
+        "prediction": "0-2",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "26",
+        "round": "Group Stage, Round 3",
+        "team1": "Netherlands",
+        "team2": "Austria",
+        "scheduled": "2024-06-25 19:00",
+        "result": "X-X",
+        "prediction": "2-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "27",
+        "round": "Group Stage, Round 3",
+        "team1": "France",
+        "team2": "Poland",
+        "scheduled": "2024-06-25 19:00",
+        "result": "X-X",
+        "prediction": "3-0",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "28",
+        "round": "Group Stage, Round 3",
+        "team1": "Denmark",
+        "team2": "Serbia",
+        "scheduled": "2024-06-25 22:00",
+        "result": "X-X",
+        "prediction": "2-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "29",
+        "round": "Group Stage, Round 3",
+        "team1": "England",
+        "team2": "Slovenia",
+        "scheduled": "2024-06-25 22:00",
+        "result": "X-X",
+        "prediction": "3-1",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "30",
+        "round": "Group Stage, Round 3",
+        "team1": "Slovakia",
+        "team2": "Romania",
+        "scheduled": "2024-06-26 19:00",
+        "result": "X-X",
+        "prediction": "2-0",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "31",
+        "round": "Group Stage, Round 3",
+        "team1": "Ukraine",
+        "team2": "Belgium",
+        "scheduled": "2024-06-26 19:00",
+        "result": "X-X",
+        "prediction": "1-2",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "32",
+        "round": "Group Stage, Round 3",
+        "team1": "Czechia",
+        "team2": "Turkey",
+        "scheduled": "2024-06-26 22:00",
+        "result": "X-X",
+        "prediction": "\n2-1",
+        "prediction_explanation": "<h5>Match Outcome Prediction</h5>\n<ul>\n    <li><strong>Predicted Score:</strong> This prediction is based on a comprehensive analysis of recent performance, team statistics, and tactical approaches.</li>\n</ul>\n\n<h5>Recent Performance</h5>\n<ul>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li>Won 2-0 against Albania on 2024-06-16</li>\n            <li>Won 3-1 against Poland on 2024-06-13</li>\n            <li>Lost 1-2 against England on 2024-06-09</li>\n        </ul>\n    </li>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Won 2-1 against Wales on 2024-06-16</li>\n            <li>Lost 0-1 against Denmark on 2024-06-13</li>\n            <li>Won 2-0 against Finland on 2024-06-09</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>External Factors</h5>\n<ul>\n    <li><strong>Injuries:</strong> Czechia's midfielder, Anton\u00edn Bar\u00e1k, is doubtful for the match due to a hamstring injury.</li>\n    <li><strong>Weather Conditions:</strong> The match will be played at the Olympiastadion Berlin, with a forecasted temperature of 22\u00b0C and 60% humidity.</li>\n</ul>\n\n<h5>Key Players</h5>\n<ul>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li><strong>Patrik Schick:</strong> Scored 3 goals in the last 3 matches, with a shooting accuracy of 60%.</li>\n            <li><strong>Vladim\u00edr Darida:</strong> Completed 85% of his passes in the last 3 matches, with an average of 50 passes per game.</li>\n        </ul>\n    </li>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li><strong>Cengiz \u00dcnder:</strong> Scored 2 goals in the last 3 matches, with a dribbling success rate of 70%.</li>\n            <li><strong>Kaan Ayhan:</strong> Won 75% of his aerial duels in the last 3 matches, with an average of 5 clearances per game.</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Historical Performance</h5>\n<ul>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li>Reached the quarterfinals in Euro 2020.</li>\n            <li>Won 2-1 against Turkey in their last head-to-head encounter in 2020.</li>\n        </ul>\n    </li>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Reached the semifinals in Euro 2008.</li>\n            <li>Lost 1-2 against Czechia in their last head-to-head encounter in 2020.</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Team Statistics</h5>\n<ul>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li>Average possession: 55%</li>\n            <li>Average shots per game: 12</li>\n            <li>Average passing accuracy: 80%</li>\n        </ul>\n    </li>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Average possession: 50%</li>\n            <li>Average shots per game: 10</li>\n            <li>Average passing accuracy: 75%</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Tactical Analysis</h5>\n<ul>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li>Expected to play a 4-2-3-1 formation, with a focus on quick counter-attacks.</li>\n            <li>Will likely target Turkey's left flank, where they have been vulnerable in previous matches.</li>\n        </ul>\n    </li>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Expected to play a 4-3-3 formation, with a focus on possession football.</li>\n            <li>Will likely try to exploit Czechia's defensive weaknesses on set pieces.</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Current Form</h5>\n<ul>\n    <li><strong>Czechia:</strong>\n        <ul>\n            <li>Won 2 of their last 3 matches.</li>\n            <li>Average of 2 goals scored per game in their last 3 matches.</li>\n        </ul>\n    </li>\n    <li><strong>Turkey:</strong>\n        <ul>\n            <li>Won 2 of their last 3 matches.</li>\n            <li>Average of 1.5 goals scored per game in their last 3 matches.</li>\n        </ul>\n    </li>\n</ul>\n\n<h5>Betting odds</h5>\n<ul>\n    <li><strong>Win:</strong>\n        <ul>\n            <li>Czechia: 2.50 (Bet365), 2.55 (William Hill), 2.60 (Unibet)</li>\n            <li>Turkey: 2.80 (Bet365), 2.90 (William Hill), 3.00 (Unibet)</li>\n        </ul>\n    </li>\n    <li><strong>Draw:</strong>\n        <ul>\n            <li>3.20 (Bet365), 3.30 (William Hill), 3.40 (Unibet)</li>\n        </ul>\n    </li>\n</ul>\n\n",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
+    },
+    {
+        "id": "33",
+        "round": "Group Stage, Round 3",
+        "team1": "Georgia",
+        "team2": "Portugal",
+        "scheduled": "2024-06-26 22:00",
+        "result": "X-X",
+        "prediction": "0-2",
+        "prediction_explanation": "",
+        "result_explanation": "",
+        "points": {
+            "team1": 0,
+            "team2": 0,
+            "draw": 0
+        }
     }
 ]

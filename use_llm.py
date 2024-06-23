@@ -15,9 +15,9 @@ client = Groq()
 def chat_completion(
         messages: List[Dict],  # A list of messages in the conversation
         model: str = DEFAULT_MODEL,  # The language model to use
-        temperature: float = 0.4,  # Controls randomness of responses
+        temperature: float = 0.2,  # Controls randomness of responses
         max_tokens: int = 2048,  # Max number of tokens in the response
-        top_p: float = 0.7,  # Nucleus sampling for token selection
+        top_p: float = 0.9,  # Nucleus sampling for token selection
         stream: bool = False,  # Stream responses in real-time
         stop: List[str] = None,  # Stop sequences to end the response
         seed: int = None,  # Seed for reproducibility

@@ -42,37 +42,54 @@
             Euro 2024 Game Predictions
         </h1>
         <h4 class="mt-5 text-center">by Omer Alexander</h4>
-        <div class="d-flex flex-column align-items-center">
-            {% for game in predictions %}
-            <div class="game-box" data-game-id="{{ game.id }}">
-                <div class="d-flex justify-content-between align-items-center">
-                    <h5>
-                        <img src="{{ game.team1_flag }}" alt="{{ game.team1 }} Flag" class="team-flag">
-                        {{ game.team1 }}   Vs
-                        <img src="{{ game.team2_flag }}" alt="{{ game.team2 }} Flag" class="team-flag">
-                        {{ game.team2 }}
-                    </h5>
-                    <div class="game-info">
-                        <p><strong>Round:</strong> {{ game.round }} | <strong>Scheduled:</strong> {{ game.scheduled }} | <strong>Result:</strong> {{ game.result }} | <strong>Prediction:</strong> {{ game.prediction }}</p>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
+        <div class="d-flex flex-column align-items-center" id="games-container">
+            <!-- Games will be loaded here -->
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const gameBoxes = document.querySelectorAll(".game-box");
+            // Load the flags.json
+            fetch('/flags.json')
+                .then(response => response.json())
+                .then(flagData => {
+                    const flags = flagData;
+                    const flagMap = new Map(flags.map(team => [team.team, team.flag_url]));
 
-            gameBoxes.forEach(box => {
-                box.addEventListener("click", function() {
-                    const gameId = box.getAttribute("data-game-id");
-                    // Redirect to the loading page with game ID as query parameter
-                    window.location.href = "/load_game?game_id=" + gameId;
-                });
-            });
+                    // Load the games.json
+                    fetch('/games.json')
+                        .then(response => response.json())
+                        .then(gamesData => {
+                            const gamesContainer = document.getElementById('games-container');
+
+                            gamesData.forEach(game => {
+                                const gameBox = document.createElement('div');
+                                gameBox.className = 'game-box';
+                                gameBox.setAttribute('data-game-id', game.id);
+                                gameBox.innerHTML = `
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5>
+                                            <img src="${flagMap.get(game.team1)}" alt="${game.team1} Flag" class="team-flag">
+                                            ${game.team1} Vs
+                                            ${game.team2}
+                                            <img src="${flagMap.get(game.team2)}" alt="${game.team2} Flag" class="team-flag">
+                                        </h5>
+                                        <div class="game-info">
+                                            <p><strong>Round:</strong> ${game.round} | <strong>Scheduled:</strong> ${game.scheduled} | <strong>Result:</strong> ${game.result} | <strong>Prediction:</strong> ${game.prediction}</p>
+                                        </div>
+                                    </div>
+                                `;
+                                gamesContainer.appendChild(gameBox);
+
+                                gameBox.addEventListener('click', () => {
+                                    window.location.href = `/load_game?game_id=${game.id}`;
+                                });
+                            });
+                        })
+                        .catch(error => console.error('Error loading games.json:', error));
+                })
+                .catch(error => console.error('Error loading flag.json:', error));
         });
     </script>
 </body>

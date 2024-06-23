@@ -43,36 +43,75 @@
                 .then(data => alert(data.message))
                 .catch(error => console.error('Error:', error));
         }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const gameId = "{{game.id}}"
+            console.log('Game ID:', gameId); // Log the game ID
+
+            if (gameId) {
+                fetch('/flags.json')
+                    .then(response => response.json())
+                    .then(flagData => {
+                        const flags = flagData;
+                        const flagMap = new Map(flags.map(team => [team.team, team.flag_url]));
+
+                        console.log('Flag Data:', flags); // Log the flag data
+
+                        fetch('/games.json')
+                            .then(response => response.json())
+                            .then(gamesData => {
+                                console.log('Games Data:', gamesData); // Log the games data
+
+                                const game = gamesData.find(g => g.id === gameId);
+
+                                if (game) {
+                                    console.log('Game Details:', game); // Log the game details
+
+                                    document.querySelector('h1').innerHTML = `
+                                        <img src="${flagMap.get(game.team1)}" alt="${game.team1} Flag" class="team-flag">
+                                        ${game.team1} VS
+                                        ${game.team2}
+                                        <img src="${flagMap.get(game.team2)}" alt="${game.team2} Flag" class="team-flag">
+                                    `;
+                                    document.querySelector('.refresh-button').setAttribute('onclick', `refreshBettingInfo('${game.id}')`);
+                                    document.querySelector('.container').innerHTML += `
+                                        <p><strong>Round:</strong> ${game.round}</p>
+                                        <p><strong>Scheduled:</strong> ${game.scheduled}</p>
+                                        <p><strong>Result:</strong> ${game.result}</p>
+                                        <p><strong>Prediction:</strong> ${game.prediction}</p>
+                                        <div class="explanation-section">
+                                            <h3 class="explanation-title">Prediction Explanation</h3>
+                                            <div class="explanation-content formatted-text" id="prediction-explanation">
+                                                ${game.prediction_explanation}
+                                            </div>
+                                        </div>
+                                        ${game.result !== "X-X" ? `
+                                        <div class="explanation-section">
+                                            <h3 class="explanation-title">Result Explanation</h3>
+                                            <div class="explanation-content formatted-text" id="result-explanation">
+                                                ${game.result_explanation}
+                                            </div>
+                                        </div>
+                                        ` : ''}
+                                    `;
+                                } else {
+                                    console.error('Game not found:', gameId);
+                                }
+                            })
+                            .catch(error => console.error('Error loading games.json:', error));
+                    })
+                    .catch(error => console.error('Error loading flags.json:', error));
+            } else {
+                console.error('No game ID provided in URL.');
+            }
+        });
     </script>
 </head>
 <body>
     <div class="container">
         <a href="/" class="btn btn-primary back-button">Back to Home Page</a>
-        <button class="btn btn-secondary refresh-button" onclick="refreshBettingInfo('{{ game.id }}')">Refresh Betting Websites Information</button>
-        <h1 class="mt-5">
-            <img src="{{ game.team1_flag }}" alt="{{ game.team1 }} Flag" class="team-flag">
-            {{ game.team1 }} VS
-            <img src="{{ game.team2_flag }}" alt="{{ game.team2 }} Flag" class="team-flag">
-            {{ game.team2 }}
-        </h1>
-        <p><strong>Round:</strong> {{ game.round }}</p>
-        <p><strong>Scheduled:</strong> {{ game.scheduled }}</p>
-        <p><strong>Result:</strong> {{ game.result }}</p>
-        <p><strong>Prediction:</strong> {{ game.prediction }}</p>
-        <div class="explanation-section">
-            <h3 class="explanation-title">Prediction Explanation</h3>
-            <div class="explanation-content formatted-text" id="prediction-explanation">
-                {{ game.prediction_explanation|safe }}
-            </div>
-        </div>
-        {% if game.result != "X-X" %}
-        <div class="explanation-section">
-            <h3 class="explanation-title">Result Explanation</h3>
-            <div class="explanation-content formatted-text" id="result-explanation">
-                {{ game.result_explanation|safe }}
-            </div>
-        </div>
-        {% endif %}
+        <button class="btn btn-secondary refresh-button">Refresh Betting Websites Information</button>
+        <h1 class="mt-5"></h1>
     </div>
 </body>
 </html>
