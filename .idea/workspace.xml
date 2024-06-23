@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_llm.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_llm.py" afterDir="false" />
-    </list>
+    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="no api key" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719150208518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="no api key">
+      <created>1719150569094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719150569094</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +198,7 @@
     <MESSAGE value="with betting websites" />
     <MESSAGE value="add new rounds" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="no api key" />
+    <option name="LAST_COMMIT_MESSAGE" value="no api key" />
   </component>
 </project>
