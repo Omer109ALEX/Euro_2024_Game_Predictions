@@ -12,7 +12,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 PASSWORD = "omer"
-NEXT_GAME_ID = 22
+NEXT_GAME_ID = "22"
 
 # Function to load predictions from a JSON file
 def load_predictions(filename="games.json"):
@@ -57,7 +57,7 @@ def refresh_betting_info():
 
 @app.route('/')
 def index():
-    return render_template('index.html', predictions=predictions)
+    return render_template('index.html', predictions=predictions, next_game_id=NEXT_GAME_ID)
 
 @app.route('/game/<string:game_id>')
 def game_details(game_id):
