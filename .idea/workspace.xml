@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="with betting websites">
-      <change afterPath="$PROJECT_DIR$/calculate_probabilities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control_games.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flags.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_format.json" afterDir="false" />
+    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="add new rounds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_messages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.json" beforeDir="false" afterPath="$PROJECT_DIR$/games.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/load_game.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/load_game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_llm.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_llm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +17,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -163,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718380793371</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add new rounds">
+      <created>1719149390655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719149390655</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="with betting websites" />
-    <option name="LAST_COMMIT_MESSAGE" value="with betting websites" />
+    <MESSAGE value="add new rounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new rounds" />
   </component>
 </project>
