@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-from webdriver_manager.chrome import ChromeDriverManager
+import webdriver_manager.chrome
 import matplotlib.pyplot as plt
 from collections import Counter
 import numpy as np
@@ -46,7 +46,7 @@ def get_game_guesses(driver, game_id, rank):
 
 def navigate_and_collect_guesses(game_id, group, total_pages=50):
     # Set up the WebDriver
-    service = Service(ChromeDriverManager().install())
+    service = Service(webdriver_manager.chrome.ChromeDriverManager().install())
 
     all_guesses = []
     url = ""

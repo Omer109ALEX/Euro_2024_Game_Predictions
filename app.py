@@ -93,7 +93,6 @@ def display_images():
 def serve_top(filename):
     return send_from_directory('top', filename)
 
-
 @app.route('/109/<path:filename>')
 def serve_109(filename):
     return send_from_directory('109', filename)
