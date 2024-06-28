@@ -5,7 +5,6 @@ import create_messages as cm
 import spot_5 as s5
 import requests
 from datetime import datetime
-import os
 
 
 #local_run = http://127.0.0.1:5000/
