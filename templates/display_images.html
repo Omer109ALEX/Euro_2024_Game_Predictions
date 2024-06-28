@@ -23,10 +23,16 @@
             margin-bottom: 10px;
             text-align: center;
         }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <a href="/game/{{ request.args.get('game_id') }}" class="btn btn-primary back-button">Back to Game</a>
         <h1>Guesses</h1>
         <div class="image-container">
             <div class="subtitle">Top 50</div>
@@ -34,7 +40,6 @@
             <div class="subtitle">My group</div>
             <img src="{{ url_for('serve_109', filename=image_path2) }}" alt="Betting Info Image 2">
         </div>
-        <a href="/" class="btn btn-primary mt-3">Back to Home Page</a>
     </div>
 </body>
 </html>
