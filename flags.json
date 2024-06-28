@@ -94,6 +94,10 @@
     {
       "team": "Czechia",
       "flag_url": "https://flagcdn.com/48x36/cz.png"
+    },
+    {
+      "team": "",
+      "flag_url": "https://flagcdn.com/48x36/il.png"
     }
 ]
 

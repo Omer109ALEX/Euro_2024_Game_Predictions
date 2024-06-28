@@ -21,7 +21,7 @@
         .explanation-content {
             margin-left: 20px;
         }
-        .back-button, .refresh-button {
+        .back-button, .refresh-button, .guesses-button {
             position: absolute;
             top: 20px;
         }
@@ -30,6 +30,9 @@
         }
         .refresh-button {
             right: 220px;
+        }
+        .guesses-button {
+            right: 420px;
         }
     </style>
     <script>
@@ -45,7 +48,7 @@
         }
 
         document.addEventListener("DOMContentLoaded", function() {
-            const gameId = "{{game.id}}"
+            const gameId = "{{game.id}}";
             console.log('Game ID:', gameId); // Log the game ID
 
             if (gameId) {
@@ -74,6 +77,7 @@
                                         <img src="${flagMap.get(game.team2)}" alt="${game.team2} Flag" class="team-flag">
                                     `;
                                     document.querySelector('.refresh-button').setAttribute('onclick', `refreshBettingInfo('${game.id}')`);
+                                    document.querySelector('.guesses-button').setAttribute('onclick', `window.location.href='/display_images?game_id=${game.id}'`);
                                     document.querySelector('.container').innerHTML += `
                                         <p><strong>Round:</strong> ${game.round}</p>
                                         <p><strong>Scheduled:</strong> ${game.scheduled}</p>
@@ -110,7 +114,8 @@
 <body>
     <div class="container">
         <a href="/" class="btn btn-primary back-button">Back to Home Page</a>
-        <button class="btn btn-secondary refresh-button">Refresh Betting Websites Information</button>
+        <button class="btn btn-secondary refresh-button">Admin</button>
+        <button class="btn btn-info guesses-button">Guesses</button>
         <h1 class="mt-5"></h1>
     </div>
 </body>
