@@ -1,5 +1,4 @@
 import os
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -11,8 +10,6 @@ import matplotlib.pyplot as plt
 from collections import Counter
 import numpy as np
 from tqdm import tqdm
-
-
 
 
 def get_game_guesses(driver, game_id, rank):
@@ -70,9 +67,6 @@ def navigate_and_collect_guesses(game_id, group, total_pages=50):
         options.add_argument("user-data-dir=C:\\Users\\97254\\AppData\\Local\\Google\\Chrome\\User Data")
         options.add_argument("profile-directory=Default")  # Use the profile you want
         driver = webdriver.Chrome(service=service, options=options)
-
-
-
 
     try:
         rank = 1

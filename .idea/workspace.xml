@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="scroll">
-      <change afterPath="$PROJECT_DIR$/templates/display_images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="add files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control_games.py" beforeDir="false" afterPath="$PROJECT_DIR$/control_games.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_messages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags.json" beforeDir="false" afterPath="$PROJECT_DIR$/flags.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.json" beforeDir="false" afterPath="$PROJECT_DIR$/games.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spot_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/spot_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719153165848</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update guesses and next steps">
+      <created>1719606636018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719606636018</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add files">
+      <created>1719606896713</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719606896713</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +291,8 @@
     <MESSAGE value="try to push" />
     <MESSAGE value="add requests" />
     <MESSAGE value="scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="scroll" />
+    <MESSAGE value="update guesses and next steps" />
+    <MESSAGE value="add files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files" />
   </component>
 </project>
