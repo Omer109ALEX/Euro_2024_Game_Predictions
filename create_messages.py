@@ -13,11 +13,10 @@ def system(content: str):
 
 
 system_guid = """
-As a language model, your task is to generate detailed and accurate predictions for Euro 2024 matches. You should prioritize the latest and most up-to-date data from reliable sources. Your response should heavily weigh the following aspects:
-1. **Bet Websites**: Analyze the betting odds from at least five different betting websites. Consider how the odds reflect the likely outcomes of the match.
-2. **Sport Analysis**: Provide a deep understanding of the tactical approaches both teams are likely to use. Utilize insights from at least five different sports analysis sources.
-3. **Team Statistics**: Offer a comprehensive analysis of each team's statistics. Include recent performance metrics, key player stats, and overall team strengths and weaknesses.
-Ensure that your data is current and reflects the latest developments. Always provide references to the sources you used for gathering information to support your predictions.
+As a language model, your task is to generate detailed and accurate predictions for Euro 2024 matches.
+You should prioritize the data from reliable sources.
+Ensure that your data is current and reflects the latest developments.
+Always provide references to the sources you used for gathering information to support your predictions.
 Do Not answer before you search for all the information you need. i do not care if it will take long time.
 """
 
@@ -62,8 +61,8 @@ Ensure the data is presented in a clear and structured format suitable for direc
 user_request = """
 Your prediction should include:
 - Match Outcome Prediction: Provide a predicted final score for the match, with a brief rationale.
-- Recent Performance: use data only from:https://raw.githubusercontent.com/openfootball/euro.json/master/2024/euro.json
-- External Factors: Consider any external factors that might affect the match, such as injuries, weather conditions, travel fatigue, or home advantage. Discuss how these factors could influence the game.
+- Recent Performance: use data only from: https://www.uefa.com/euro2024/fixtures-results , explain about last matches from euro 2024 tournament 
+- External Factors: Consider any external factors that might affect the match, such as injuries, home advantage. Discuss how these factors could influence the game.
 - Key Players: Identify key players from both teams who are likely to influence the match's outcome. Highlight their recent performances and any significant statistics.
 - Historical Performance: Summarize the historical performance of both teams in recent tournaments and head-to-head encounters. Include relevant statistics and notable past results.
 - Team Statistics: Offer a comprehensive analysis of each team's statistics. Include recent performance metrics, key player stats, and overall team strengths and weaknesses.
@@ -73,8 +72,6 @@ Your prediction should include:
 - Conclusion: Provide a deep, comprehensive explanation for your prediction, citing relevant data and analysis to support your conclusion. Include references to the sources used for gathering information.
 - References: Include URLs for all sources cited.
 """
-
-
 
 
 def messages_for_get_game_prediction_result(game_dict):
@@ -112,6 +109,7 @@ def messages_for_get_game_prediction_explanation(game_dict):
 
     messages = [
         system(system_guid),
+        system(f'today is the {scheduled}, give your answer based on today date'),
         user(f"Please predict the result of euro 2024 for game: {team1} vs {team2} , {scheduled}"),
         user(user_request),
         user(prediction_structure),

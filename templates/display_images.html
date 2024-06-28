@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guesses</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .image-container .subtitle {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Guesses</h1>
+        <div class="image-container">
+            <div class="subtitle">Top 50</div>
+            <img src="{{ url_for('serve_top', filename=image_path1) }}" alt="Betting Info Image 1">
+            <div class="subtitle">My group</div>
+            <img src="{{ url_for('serve_109', filename=image_path2) }}" alt="Betting Info Image 2">
+        </div>
+        <a href="/" class="btn btn-primary mt-3">Back to Home Page</a>
+    </div>
+</body>
+</html>
