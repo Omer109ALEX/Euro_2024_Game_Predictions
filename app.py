@@ -70,7 +70,7 @@ def refresh_betting_info():
     if game:
         sport5_id = game["sport_5_id"]
         all_guesses = s5.navigate_and_collect_guesses(sport5_id, password)
-        s5.plot_guesses(all_guesses, game["team1"], game["team2"], game["scheduled"], password, game_id)
+        s5.plot_guesses(all_guesses, game["team1"], game["team2"], password, game_id)
         # HERE I WANT THE WEBSITE TO GO TO MY PNG DISPLAY PAGE
         return make_response("", 204)  # No Content
     return jsonify({"error": "Game not found"}), 404
