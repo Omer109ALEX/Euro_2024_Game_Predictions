@@ -10,6 +10,9 @@ import matplotlib.pyplot as plt
 from collections import Counter
 import numpy as np
 from tqdm import tqdm
+import datetime
+import json
+
 
 
 def get_game_guesses(driver, game_id, rank):
@@ -59,7 +62,7 @@ def navigate_and_collect_guesses(game_id, group, total_pages=50):
         driver = webdriver.Chrome(service=service)
     elif group == "109":
         url = "https://hevre.sport5.co.il/#/group/665cc63c9e6263f82409e092"
-        total_pages = 10
+        total_pages = 36
         options = webdriver.ChromeOptions()
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
@@ -84,7 +87,12 @@ def navigate_and_collect_guesses(game_id, group, total_pages=50):
             next_button = WebDriverWait(driver, 10).until(
                 EC.element_to_be_clickable((By.XPATH, next_button_xpath))
             )
-            next_button.click()
+
+            # Scroll the element into view
+            driver.execute_script("arguments[0].scrollIntoView(true);", next_button)
+
+            # Click the element using JavaScript
+            driver.execute_script("arguments[0].click();", next_button)
 
             # Wait for the page to load
             WebDriverWait(driver, 10).until(
@@ -108,7 +116,7 @@ def navigate_and_collect_guesses(game_id, group, total_pages=50):
     return all_guesses
 
 
-def plot_guesses(guesses, team1_name, team2_name, scheduled, save_path, game_id, to_show=False):
+def plot_guesses(guesses, team1_name, team2_name, save_path, game_id, to_show=False):
     # Extract the 'guess' values and 'rank' values
     guess_values = [guess['guess'] for guess in guesses]
     guess_ranks = [guess['rank'] for guess in guesses]
@@ -169,8 +177,9 @@ def plot_guesses(guesses, team1_name, team2_name, scheduled, save_path, game_id,
     # Combine color maps
     colors = np.concatenate([color_map_equal, color_map_greater, color_map_less, color_special])
 
-    scheduled = scheduled.split(" ")[0]
-    title = f"{team1_name}_{team2_name}_{scheduled}"
+    update_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    title = f"{team1_name}_{team2_name}_{update_time}"
 
     # Create pie chart
     plt.figure(figsize=(10, 7))
@@ -197,3 +206,23 @@ def plot_guesses(guesses, team1_name, team2_name, scheduled, save_path, game_id,
         # Show the pie chart
         plt.show()
 
+
+def load_predictions(filename="games.json"):
+    with open(filename, 'r') as f:
+        return json.load(f)
+
+
+def update_plots(ids):
+    games = load_predictions()
+    groups = ["top", "109"]
+    for game in games:
+        if game["id"] in ids:
+            for group in groups:
+                all_guesses = navigate_and_collect_guesses(game["sport_5_id"], group)
+                plot_guesses(all_guesses, game["team1"], game["team2"], group, game["id"])
+
+
+"""
+ids = ['38', '39', '40', '41']
+update_plots(ids)
+"""
