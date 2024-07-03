@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="add guesses">
-      <change afterPath="$PROJECT_DIR$/109/36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/109/37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/top/36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/top/37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/top/38.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/109/34.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/109/35.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/38.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/39.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/41.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games.json" beforeDir="false" afterPath="$PROJECT_DIR$/games.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spot_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/spot_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top/34.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top/35.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/38.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/39.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/41.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,29 +63,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.app.executor": "Run",
-    "Python.spot_5.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/97254/PycharmProjects/Euro2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spot_5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/97254/PycharmProjects/Euro2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\97254\PycharmProjects\Euro2024" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euro2024" />
       <option name="ENV_FILES" value="" />
@@ -208,7 +206,9 @@
       <workItem from="1719344002138" duration="626000" />
       <workItem from="1719344909003" duration="1426000" />
       <workItem from="1719763101810" duration="1425000" />
-      <workItem from="1719769342153" duration="8977000" />
+      <workItem from="1719769342153" duration="9290000" />
+      <workItem from="1719842248584" duration="6216000" />
+      <workItem from="1719935131353" duration="6798000" />
     </task>
     <task id="LOCAL-00001" summary="with betting websites">
       <created>1718380642074</created>
@@ -308,7 +308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719609665601</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add guesses">
+      <option name="closed" value="true" />
+      <created>1719781984066</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719781984066</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add guesses">
+      <option name="closed" value="true" />
+      <created>1719782017158</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719782017158</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +358,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="add guesses" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Euro2024$app.coverage" NAME="app Coverage Results" MODIFIED="1719770505414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Euro2024$spot_5.coverage" NAME="spot_5 Coverage Results" MODIFIED="1719780289414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Euro2024$app.coverage" NAME="app Coverage Results" MODIFIED="1720025490469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Euro2024$spot_5.coverage" NAME="spot_5 Coverage Results" MODIFIED="1720024448357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
