@@ -223,7 +223,7 @@ def update_plots(ids):
 
 
 """
-ids = ['42', '43', '44', '45']
+ids = ['46', '47']
 update_plots(ids)
 """
 """

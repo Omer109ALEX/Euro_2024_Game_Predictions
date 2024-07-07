@@ -52,7 +52,7 @@ def get_final_score(team1, team2, date_and_time):
                     return f"{score1}-{score2}"
                 else:
                     return "X-X"
-    return "Match not found"
+    return "X-X"
 
 
 @app.route('/refresh_betting_info', methods=['GET'])
