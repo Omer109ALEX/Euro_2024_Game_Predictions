@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="add guesses">
+    <list default="true" id="6aba6646-08fd-4d97-bacd-9663db0bc1c5" name="Changes" comment="Quarterfinals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/109/38.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/109/39.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/109/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/109/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/42.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/43.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/44.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/109/45.png" beforeDir="false" afterPath="$PROJECT_DIR$/109/45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games.json" beforeDir="false" afterPath="$PROJECT_DIR$/games.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spot_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/spot_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top/38.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top/39.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/42.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/43.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/44.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/45.png" beforeDir="false" afterPath="$PROJECT_DIR$/top/45.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +209,10 @@
       <workItem from="1719763101810" duration="1425000" />
       <workItem from="1719769342153" duration="9290000" />
       <workItem from="1719842248584" duration="6216000" />
-      <workItem from="1719935131353" duration="6798000" />
+      <workItem from="1719935131353" duration="7258000" />
+      <workItem from="1720125077993" duration="9637000" />
+      <workItem from="1720346049088" duration="587000" />
+      <workItem from="1720347451949" duration="1371000" />
     </task>
     <task id="LOCAL-00001" summary="with betting websites">
       <created>1718380642074</created>
@@ -324,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719782017158</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Quarterfinals">
+      <option name="closed" value="true" />
+      <created>1720025685978</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720025685978</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,10 +367,11 @@
     <MESSAGE value="req" />
     <MESSAGE value="fix bug" />
     <MESSAGE value="add guesses" />
-    <option name="LAST_COMMIT_MESSAGE" value="add guesses" />
+    <MESSAGE value="Quarterfinals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quarterfinals" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Euro2024$app.coverage" NAME="app Coverage Results" MODIFIED="1720025490469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Euro2024$spot_5.coverage" NAME="spot_5 Coverage Results" MODIFIED="1720024448357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Euro2024$app.coverage" NAME="app Coverage Results" MODIFIED="1720350919887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Euro2024$spot_5.coverage" NAME="spot_5 Coverage Results" MODIFIED="1720347603895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
