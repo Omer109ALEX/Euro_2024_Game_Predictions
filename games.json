@@ -578,13 +578,13 @@
     {
         "id": "48",
         "round": "Final",
-        "team1": "",
-        "team2": "",
+        "team1": "Spain",
+        "team2": "England",
         "scheduled": "2024-07-14 21:00",
-        "result": "Match not found",
+        "result": "X-X",
         "prediction": "",
         "prediction_explanation": "",
         "result_explanation": "",
-        "sport_5_id": ""
+        "sport_5_id": "0668fe07fe01db"
     }
 ]
