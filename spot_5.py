@@ -222,10 +222,10 @@ def update_plots(ids):
                 plot_guesses(all_guesses, game["team1"], game["team2"], group, game["id"])
 
 
-#"""
+"""
 ids = ['48']
 update_plots(ids)
-#"""
+"""
 """
 ids = ['38', '39', '40', '41']
 update_plots(ids)
