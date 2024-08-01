@@ -36,6 +36,8 @@ This project is a web application that provides predictions for Euro 2024 footba
 
 ## Installation
 
+need to add groq api key
+
 1. Clone the repository:
 
    ```sh
