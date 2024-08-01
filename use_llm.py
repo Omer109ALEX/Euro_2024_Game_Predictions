@@ -3,7 +3,7 @@ import json
 from typing import Dict, List
 from groq import Groq
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "need_to_add"
 
 LLAMA3_70B_INSTRUCT = "llama3-70b-8192"
 
