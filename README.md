@@ -1,6 +1,9 @@
+
 # Euro 2024 Game Predictions
 
 This project is a web application that provides predictions for Euro 2024 football matches. The application displays match predictions, key players, tactical analysis, historical performance, current form, external factors, betting information, and a detailed explanation for each prediction.
+
+https://euro-2024-game-predictions.onrender.com/
 
 ## Features
 
@@ -10,62 +13,74 @@ This project is a web application that provides predictions for Euro 2024 footba
 - User-friendly interface with match details and predictions
 
 ## Project Structure
-   ```sh
 
+```sh
+├── .idea
+├── 109
+│   └── # contains data from Sport 5
+├── __pycache__
+├── templates
+│   ├── index.html
+│   ├── game.html
+│   └── load_game.html
+├── top
+│   └── # contains data from Sport 5
+├── Procfile
+├── README.md
 ├── app.py
 ├── create_messages.py
+├── flags.json
+├── game_format.json
 ├── games.json
-├── templates
-│ ├── index.html
-│ ├── game.html
-│ └── load_game.html
-├── static
-│ ├── styles.css
-│ └── scripts.js
 ├── requirements.txt
-└── Procfile
+├── spot_5.py
+├── use_llm.py
 ```
 
 - `app.py`: Main application file that contains the Flask routes and logic.
-- `create_messages.py`: Contains functions to create messages for LLM.
+- `create_messages.py`: Contains functions to create messages and insights for LLM.
+- `flags.json`: JSON file for game flags data.
+- `game_format.json`: JSON file for game format details.
 - `games.json`: JSON file containing the scheduled games and predictions.
+- `spot_5.py`: Script for collecting data from the Sport 5 website about game guesses.
+- `use_llm.py`: Integration with the LLM for generating insights.
 - `templates/`: Directory containing HTML templates for the web pages.
-- `static/`: Directory for static files such as CSS and JavaScript.
 - `requirements.txt`: List of Python dependencies.
 - `Procfile`: Configuration file for Heroku deployment.
 
 ## Installation
 
-need to add groq api key
+You need to add the Groq API key.
 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/euro2024-predictions.git
+   git clone https://github.com/Omer109ALEX/Euro_2024_Game_Predictions.git
    cd euro2024-predictions
+   ```
 
 2. Create and activate a virtual environment:
    ```sh
    python -m venv venv
    venv\Scripts\activate  # On Windows
    source venv/bin/activate  # On macOS/Linux
+   ```
 
 3. Install the dependencies:
    ```sh
    pip install -r requirements.txt
+   ```
 
-4.Set the Flask environment variables:
+4. Set the Flask environment variables:
    ```sh
    set FLASK_APP=app.py  # On Windows
    export FLASK_APP=app.py  # On macOS/Linux
-  ```
+   ```
 
-5.Run the application:
+5. Run the application:
    ```sh
    flask run
-  ```
+   ```
 
-6.  Open your web browser and navigate to http://127.0.0.1:5000 to view the application.
-
-
-
+6. Open your web browser and navigate to http://127.0.0.1:5000 to view the application.
+```
