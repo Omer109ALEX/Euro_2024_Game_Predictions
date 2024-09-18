@@ -78,6 +78,4 @@ You need to add the Groq API key.
    ```
 
 6. Open your web browser and navigate to http://127.0.0.1:5000 to view the application.
-Here you can see my web for example: https://euro-2024-game-predictions.onrender.com/
-
 ```
