@@ -15,17 +15,14 @@ https://euro-2024-game-predictions.onrender.com/
 ## Project Structure
 
 ```sh
-├── .idea
 ├── 109
-│   └── # contains data from Sport 5
-├── __pycache__
+│   └── # contains guesses data from Sport 5 from 109 group
 ├── templates
 │   ├── index.html
 │   ├── game.html
 │   └── load_game.html
 ├── top
-│   └── # contains data from Sport 5
-├── Procfile
+│   └── # contains guesses data from Sport 5 from top group
 ├── README.md
 ├── app.py
 ├── create_messages.py
@@ -46,7 +43,6 @@ https://euro-2024-game-predictions.onrender.com/
 - `use_llm.py`: Integration with the LLM for generating insights.
 - `templates/`: Directory containing HTML templates for the web pages.
 - `requirements.txt`: List of Python dependencies.
-- `Procfile`: Configuration file for Heroku deployment.
 
 ## Installation
 
