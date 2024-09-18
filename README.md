@@ -3,8 +3,6 @@
 
 This project is a web application that provides predictions for Euro 2024 football matches. The application displays match predictions, key players, tactical analysis, historical performance, current form, external factors, betting information, and a detailed explanation for each prediction.
 
-https://euro-2024-game-predictions.onrender.com/
-
 ## Features
 
 - Displays match predictions for Euro 2024 games
@@ -72,6 +70,7 @@ You need to add the Groq API key.
    set FLASK_APP=app.py  # On Windows
    export FLASK_APP=app.py  # On macOS/Linux
    ```
+   
 
 5. Run the application:
    ```sh
@@ -80,3 +79,4 @@ You need to add the Groq API key.
 
 6. Open your web browser and navigate to http://127.0.0.1:5000 to view the application.
 ```
+https://euro-2024-game-predictions.onrender.com/
