@@ -102,6 +102,8 @@ def index():
     need_to_update = [game for game in predictions if game["result"] == "X-X"]
     if need_to_update:
         NEXT_GAME_ID = need_to_update[0]["id"]
+    else:
+        NEXT_GAME_ID = "0"
     for game in need_to_update:
         team1 = game["team1"]
         team2 = game["team2"]
