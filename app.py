@@ -10,7 +10,7 @@ from datetime import datetime
 #local_run = http://127.0.0.1:5000/
 app = Flask(__name__)
 
-NEXT_GAME_ID = ""
+NEXT_GAME_ID = "0"
 
 # Function to load predictions from a JSON file
 def load_predictions(filename="games.json"):
@@ -100,7 +100,8 @@ def serve_109(filename):
 @app.route('/')
 def index():
     need_to_update = [game for game in predictions if game["result"] == "X-X"]
-    NEXT_GAME_ID = need_to_update[0]["id"]
+    if need_to_update:
+        NEXT_GAME_ID = need_to_update[0]["id"]
     for game in need_to_update:
         team1 = game["team1"]
         team2 = game["team2"]
