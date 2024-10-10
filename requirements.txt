@@ -8,3 +8,4 @@ selenium~=4.22.0
 beautifulsoup4~=4.12.3
 tqdm~=4.64.1
 webdriver_manager
+python-dotenv==1.0.1
