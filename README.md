@@ -3,6 +3,8 @@
 
 This project is a web application that provides predictions for Euro 2024 football matches. The application displays match predictions, key players, tactical analysis, historical performance, current form, external factors, betting information, and a detailed explanation for each prediction.
 
+![image](https://github.com/user-attachments/assets/be806a07-0485-42ab-a156-b0fde09bc444)
+
 ## Features
 
 - Displays match predictions for Euro 2024 games
