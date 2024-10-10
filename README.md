@@ -15,7 +15,7 @@ This project is a web application that provides predictions for Euro 2024 footba
 ![image](https://github.com/user-attachments/assets/f6abfa54-406e-4d53-b787-5398e13250c7)
 
 
-![43](https://github.com/user-attachments/assets/0fd86027-63f4-4da1-901a-3f35c4979a91)
+![image](https://github.com/user-attachments/assets/534be19a-b3c2-4be6-96c9-f3c5f9bc2892)
 
 
 ## Project Structure
