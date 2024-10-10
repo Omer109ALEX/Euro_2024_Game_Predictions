@@ -12,6 +12,12 @@ This project is a web application that provides predictions for Euro 2024 footba
 - Integrates with betting websites for odds and insights
 - User-friendly interface with match details and predictions
 
+![image](https://github.com/user-attachments/assets/dab9e04c-1e15-46e1-9035-074f29bdce44)
+
+
+![43](https://github.com/user-attachments/assets/0fd86027-63f4-4da1-901a-3f35c4979a91)
+
+
 ## Project Structure
 
 ```sh
